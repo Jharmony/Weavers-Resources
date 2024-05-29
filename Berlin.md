@@ -1,4 +1,4 @@
-### Deploying on Arweave: Bringing Your Projects to the Decentralized Web Made Eas ###
+## Deploying on Arweave: Build on the Decentralized ##
 
 Are you new to deploying on Arweave? Don't worry! We're here to show you just how straightforward it can be. Whether you're experienced with web development or just starting out, deploying on Arweave is as easy as pie. Here's what you need to know:
 
@@ -8,72 +8,82 @@ If you've never deployed on Arweave before, we've got your back. Join us at our 
 
 **How Easy is it to Deploy on Arweave?**
 
-It's as simple as 1-2-3! Let's break it down:
+## Quick Start with NextJS / ArDrive Turbo##
 
-1. **Install Arweave.js:** Start by installing Arweave.js, a JavaScript/TypeScript SDK for interacting with the Arweave network. This SDK allows you to easily connect your projects to Arweave, enabling decentralized storage and permanent hosting.
+1. **Run create-next-app** Start by building a scafolded nextjs app to work from.
 
    ```bash
-   npm install --save arweave
+   npx create-next-app
    ```
 
-2. **Initialize Arweave:** Once you've installed Arweave.js, it's time to initialize it. This step sets up Arweave to connect to a gateway, which acts as your entry point to the Arweave network. Don't worry; it's just a few lines of code!
+2. **Install dependencies:** Now we need to install the tools needed for us to interact with Arweave. We will leverage the ArDrive TURBO SDK for this using npm or yarn.
+
+   ```bash
+   npm install @ardrive/turbo-sdk
+   ```
+   or
+   ```bash
+   yarn add @ardrive/turbo-sdk
+   ```
+
+3. **Create the script to interact with Arweave** Begin by loading your JWK keyfile for authentication or providing your own signer. Retrieve and display your current Arweave balance to ensure sufficient funds. Define the necessary variables for file upload and calculate the upload cost using TURBO. Compare your TURBO balance with the estimated upload cost to ensure you have enough funds. If necessary, implement a top-up window for additional balance. Finally, upload your file to Arweave, completing the process smoothly and efficiently. 
 
    ```javascript
-   const Arweave = require('arweave');
+   import { TurboFactory, ArweaveSigner } from '@ardrive/turbo-sdk';
 
-   const arweave = Arweave.init({
-       host: 'arweave.net', // Or your preferred node
-       port: 443,           // Standard HTTPS port
-       protocol: 'https'    // Use 'http' for local development
+   // Authenticating with a JWK
+   const myKeyFile = fs.readFileSync('./my-secret-key.json');
+   const myWalletAddress = arweave.wallets.jwkToAddress(myKeyFile);
+   const turboClient = TurboFactory.authenticated({ privateKey: myKeyFile });
+   
+   // Alternatively, providing a signer
+   const mySigner = new ArweaveSigner(myKeyFile);
+   const turboClient = TurboFactory.authenticated({ signer: mySigner });
+   
+   // Retrieving wallet balance
+   const { winc: myBalance } = await turboClient.getBalance();
+   
+   // Preparing file for upload
+   const myFilePath = path.join(__dirname, './my-photo.png');
+   const myFileSize = fs.statSync(myFilePath).size;
+   
+   // Estimating upload cost
+   const [{ winc: myUploadCost }] = await turboClient.getUploadCosts({
+     bytes: [myFileSize],
    });
+   
+   // Checking balance before upload
+   if (myBalance < myUploadCost) {
+     const { url } = await turboClient.createCheckoutSession({
+       amount: myUploadCost,
+       owner: myWalletAddress,
+     });
+     open(url); // Prompt user to top-up balance
+     return;
+   }
+   
+   // Uploading the file
+   try {
+     const { id, owner, dataCaches, fastFinalityIndexes } = await turboClient.uploadFile   (() => {
+       fileStreamFactory => () => fs.createReadStream(myFilePath),
+       fileSizeFactory => () => myFileSize,
+     });
+     // File uploaded successfully
+     console.log('Data item uploaded successfully!', { id, owner, dataCaches,    fastFinalityIndexes });
+   } catch (error) {
+     // Error handling
+     console.error('Failed to upload data item!', error);
+   } finally {
+     // Checking new balance after upload
+     const { winc: myNewBalance } = await turboClient.getBalance();
+     console.log('New balance:', myNewBalance);
+   }
    ```
+Read the ArDrive [Turbo SDK](https://docs.ardrive.io/) docs for more details. 
 
-3. **Create and Sign Transactions:** With Arweave.js initialized, you can start creating and signing transactions to store your project data on the Arweave network. These transactions can include HTML, JSON, or any other type of data you want to store permanently.
-
-   ```javascript
-   const wallet = JSON.parse(fs.readFileSync('path/to/wallet.json'));
-
-   const transaction = await arweave.createTransaction({
-       data: 'Hello, Arweave!',
-   }, wallet);
-
-   transaction.addTag('Content-Type', 'text/plain');
-
-   await arweave.transactions.sign(transaction, wallet);
-
-   const response = await arweave.transactions.post(transaction);
-   console.log(response.status); // Should log 200 if successful
-   ```
-
-**Advanced Tools:**
+## Other NPM Packages: ##
 
 For more sophisticated interactions and additional functionalities, consider using advanced tools like **@permaweb/aoconnect** and **@ardriveapp/turbo-sdk**. These libraries provide additional features for interacting with the Arweave network, giving you more options and flexibility in your development workflow.
-
-**AoConnect:**
-
-```bash
-npm install --save @permaweb/aoconnect
-```
-
-Here's a quick example of how to use AoConnect to send a message on the Arweave network:
-
-```javascript
-import { message, createDataItemSigner } from "@permaweb/aoconnect";
-
-const wallet = JSON.parse(fs.readFileSync('path/to/wallet.json'));
-
-await message({
-    process: "process-id",
-    tags: [
-        { name: "Your-Tag-Name-Here", value: "your-tag-value" },
-        { name: "Another-Tag", value: "another-value" },
-    ],
-    signer: createDataItemSigner(wallet),
-    data: "any data",
-})
-.then(console.log)
-.catch(console.error);
-```
 
 **Turbo SDK:**
 
@@ -101,6 +111,68 @@ console.log('Upload complete:', uploadResponse);
 
 For more in-depth walkthroughs and tutorials, we highly recommend checking out our previous hackathon sessions:
 
+**AoConnect:**
+
+```bash
+npm install --save @permaweb/aoconnect
+```
+
+Here's a quick example of how to use AoConnect to send a message on the Arweave network:
+
+```javascript
+import { message, createDataItemSigner } from "@permaweb/aoconnect";
+
+const wallet = JSON.parse(fs.readFileSync('path/to/wallet.json'));
+
+await message({
+    process: "process-id",
+    tags: [
+        { name: "Your-Tag-Name-Here", value: "your-tag-value" },
+        { name: "Another-Tag", value: "another-value" },
+    ],
+    signer: createDataItemSigner(wallet),
+    data: "any data",
+})
+.then(console.log)
+.catch(console.error);
+```
+
+## To the metal with Arweave.js ##
+
+1. **Install Arweave.js:** Start by installing Arweave.js, a JavaScript/TypeScript SDK for interacting with the Arweave network. This SDK allows you to easily connect your projects to Arweave, enabling decentralized storage and permanent hosting.
+
+   ```bash
+   npm install --save arweave
+   ```
+
+2. **Initialize Arweave:** Once you've installed Arweave.js, it's time to initialize it. This step sets up Arweave to connect to a gateway, which acts as your entry point to the Arweave network. Don't worry; it's just a few lines of code!
+
+   ```javascript
+   const Arweave = require('arweave');
+
+   const arweave = Arweave.init({
+       host: 'arweave.net', // Or other node
+       port: 443,           // HTTPS port
+       protocol: 'https'    // Local development
+   });
+   ```
+
+3. **Create and Sign Transactions:** With Arweave.js initialized, you can start creating and signing transactions to store your project data on the Arweave network. These transactions can include HTML, JSON, or any other type of data you want to store permanently.
+
+   ```javascript
+   const myWallet = JSON.parse(fs.readFileSync('path/to/wallet.json'));
+
+   const myTransaction = await arweave.createTransaction({
+     data: 'Welcome to Berlin!',
+   }, myWallet);
+   
+   myTransaction.addTag('Content-Type', 'text/plain');
+   
+   await arweave.transactions.sign(myTransaction, myWallet);
+   
+   const myResponse = await arweave.transactions.post(myTransaction);
+   console.log(myResponse.status);
+   ```
 
 ## Weavers YT ##
 - [Turbo SDK 101 with Stephen (aka Bobinstein) from Ario: Dive into the basics of the Turbo SDK and learn how to harness its power for your Arweave projects.](https://youtu.be/3F95opFzZ7Q?si=gwxQnp32SMza9tgS)
@@ -122,6 +194,9 @@ For more in-depth walkthroughs and tutorials, we highly recommend checking out o
 - [Building an Arena Game on AO with Bots by Tom Rakis: Explore how to build interactive games on the Arweave network using the AO protocol.](https://youtu.be/BPHzWywrBLo?si=B-pj026YC7NDgurE)
 
 - [Gather Chat Walkthrough Video: Discover how to create decentralized chat applications using Arweave and Gather.](https://youtu.be/zF9d5Y5L2iY?si=KeR0U0_IegvnPaG_)
+
+## Other Videos ##
+- [Permanent File Storage for Web3 Applications with Arweave, Bundlr(now Irys), and Next.js (Full Stack Guide)](https://www.youtube.com/watch?v=aUU-eHCB6j8&t=613s)
 
 These walkthroughs provide valuable insights and practical demonstrations that can help you take your Arweave development skills to the next level. Happy coding!
 
