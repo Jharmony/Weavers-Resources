@@ -1,4 +1,4 @@
-## Deploying on Arweave: Build on the Decentralized ##
+## Deploying on Arweave: Build on the Decentralized Web ##
 
 Are you new to deploying on Arweave? Don't worry! We're here to show you just how straightforward it can be. Whether you're experienced with web development or just starting out, deploying on Arweave is as easy as pie. Here's what you need to know:
 
@@ -198,10 +198,7 @@ await message({
 ## Other Videos ##
 - [Permanent File Storage for Web3 Applications with Arweave, Bundlr(now Irys), and Next.js (Full Stack Guide)](https://www.youtube.com/watch?v=aUU-eHCB6j8&t=613s)
 
-These walkthroughs provide valuable insights and practical demonstrations that can help you take your Arweave development skills to the next level. Happy coding!
-
-At our event, we'll provide guidance, answer your questions, and offer hands-on assistance to ensure you can deploy your projects on Arweave smoothly. Join us to discover just how easy and powerful deploying on Arweave can be. See you there!
-
+- [Store your NFT data on Arweave](https://www.youtube.com/watch?v=MTSPjmCmdqs&t=40s)
 
 ## Examples Built with Arweave and AO ##
 
@@ -306,7 +303,7 @@ At our event, we'll provide guidance, answer your questions, and offer hands-on 
 
 ## Permaweb Cookbook ##
 
-[Permaweb Cookbook Official](https://ao.g8way.io/) - The Permaweb Cookbook is a developer resource that provides the essential concepts and references for buiding applications on the Permaweb. Each concept and reference will focus on specific aspects of the Permaweb development ecosystem while providing additional details and usage examples
+[Permaweb Cookbook Official](https://cookbook.arweave.dev/) - The Permaweb Cookbook is a developer resource that provides the essential concepts and references for buiding applications on the Permaweb. Each concept and reference will focus on specific aspects of the Permaweb development ecosystem while providing additional details and usage examples
 
 [Get a webpage on to the permaweb](https://cookbook.arweave.dev/getting-started/quick-starts/hw-code.html) - This guide walks you through a quick way to get a static HTML, CSS and JavaScript webpage on to the permaweb using a few lines of code and a command-line interface (CLI)
 
@@ -347,9 +344,12 @@ At our event, we'll provide guidance, answer your questions, and offer hands-on 
 
 [ao Tokens](https://github.com/labscommunity/ao-tokens) - This library makes it easy to interact with tokens and operate with token quantities.
 
+[Gamma Presentation](https://gamma.app/docs/Deploying-on-Arweave-Build-on-the-Decentralized-Web-xj30isp8bok5dep)
+
 ---
 
+These walkthroughs provide valuable insights and practical demonstrations that can help you take your Arweave development skills to the next level. Happy coding!
 
-
+At our event, we'll provide guidance, answer your questions, and offer hands-on assistance to ensure you can deploy your projects on Arweave smoothly. Join us to discover just how easy and powerful deploying on Arweave can be. See you there!
 
 This guide now includes information on both AoConnect and the Turbo SDK, providing developers with options for advanced functionalities when deploying on Arweave.
