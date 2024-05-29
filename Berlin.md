@@ -1,4 +1,4 @@
-**Deploying on Arweave: Bringing Your Projects to the Decentralized Web Made Easy**
+### Deploying on Arweave: Bringing Your Projects to the Decentralized Web Made Eas ###
 
 Are you new to deploying on Arweave? Don't worry! We're here to show you just how straightforward it can be. Whether you're experienced with web development or just starting out, deploying on Arweave is as easy as pie. Here's what you need to know:
 
@@ -101,21 +101,27 @@ console.log('Upload complete:', uploadResponse);
 
 For more in-depth walkthroughs and tutorials, we highly recommend checking out our previous hackathon sessions:
 
-##Weavers YT##
 
-[Turbo SDK 101 with Stephen (aka Bobinstein) from Ario: Dive into the basics of the Turbo SDK and learn how to harness its power for your Arweave projects.](https://youtu.be/3F95opFzZ7Q?si=gwxQnp32SMza9tgS)
+## Weavers YT ##
+- [Turbo SDK 101 with Stephen (aka Bobinstein) from Ario: Dive into the basics of the Turbo SDK and learn how to harness its power for your Arweave projects.](https://youtu.be/3F95opFzZ7Q?si=gwxQnp32SMza9tgS)
 
-[Building an Arena Game on AO with Bots by Tom Rakis: Explore how to build interactive games on the Arweave network using the AO protocol.](https://youtu.be/BPHzWywrBLo?si=B-pj026YC7NDgurE)
+- [Building an Arena Game on AO with Bots by Tom Rakis: Explore how to build interactive games on the Arweave network using the AO protocol.](https://youtu.be/BPHzWywrBLo?si=B-pj026YC7NDgurE)
 
-[Gather Chat Walkthrough Video: Discover how to create decentralized chat applications using Arweave and Gather.](https://youtu.be/zF9d5Y5L2iY?si=KeR0U0_IegvnPaG_)
+- [Gather Chat Walkthrough Video: Discover how to create decentralized chat applications using Arweave and Gather.](https://youtu.be/zF9d5Y5L2iY?si=KeR0U0_IegvnPaG_)
 
-##aoVenture Sessions##
+## aoVenture Sessions ##
 
-[Ao Ventures Keynote #6 by Tom Wilson](https://www.crowdcast.io/c/aoventureskeynote6)
+- [Ao Ventures Keynote #1 by Phil Mataras - Ar.io / ArDrive](https://www.youtube.com/watch?v=PJWHKA90UfU)
 
-[Building an Arena Game on AO with Bots by Tom Rakis: Explore how to build interactive games on the Arweave network using the AO protocol.](https://youtu.be/BPHzWywrBLo?si=B-pj026YC7NDgurE)
+- [Ao Ventures Keynote #2 by Tom Wilson - Memeframes](https://www.crowdcast.io/c/aoventureskeynote2)
 
-[Gather Chat Walkthrough Video: Discover how to create decentralized chat applications using Arweave and Gather.](https://youtu.be/zF9d5Y5L2iY?si=KeR0U0_IegvnPaG_)
+- [Ao Ventures Keynote #3 by Marton - ao tooling](https://www.crowdcast.io/c/aoventureskeynote3)
+
+- [Ao Ventures Keynote #6 by Tom Wilson](https://www.crowdcast.io/c/aoventureskeynote6)
+
+- [Building an Arena Game on AO with Bots by Tom Rakis: Explore how to build interactive games on the Arweave network using the AO protocol.](https://youtu.be/BPHzWywrBLo?si=B-pj026YC7NDgurE)
+
+- [Gather Chat Walkthrough Video: Discover how to create decentralized chat applications using Arweave and Gather.](https://youtu.be/zF9d5Y5L2iY?si=KeR0U0_IegvnPaG_)
 
 These walkthroughs provide valuable insights and practical demonstrations that can help you take your Arweave development skills to the next level. Happy coding!
 
@@ -129,18 +135,69 @@ At our event, we'll provide guidance, answer your questions, and offer hands-on 
 
 [TYPR - AO Twitter Clone](https://www.typr.day/) | [Repo](https://github.com/iamgamelover/ao-twitter)
 
+[Pet or Rekt](https://dumdum.g8way.io/)
+
+[BetterIDEa](https://ide.betteridea.dev/)
+
+[ArCode](https://arcode.g8way.io/)
+
+[AOWW](https://aoww.net/)
+
+[Helix](https://helix.g8way.io)
+
+
+## Starter Kit and Getting Started ##
+
+[React Starter Kits](https://cookbook.arweave.dev/kits/react/index.html)
+
+[Svelte Starter Kits](https://cookbook.arweave.dev/kits/svelte/index.html)
+
+[Vue Starter Kits](https://cookbook.arweave.dev/kits/vue/index.html)
+
+[AOS Release v1.0.25 ](https://www.crowdcast.io/c/aoventureskeynote6)
+
+[AOS-Sqlite Workshop by Tom Wilson](https://hackmd.io/@ao-docs/rkM1C9m40)
+
+[Kwil-db Repo](https://github.com/kwilteam/kwil-db)
+
 
 ## AO Documentation ##
 
-[ao Cookbook](https://ao.g8way.io/)
+[ao SPEC](https://ao.arweave.dev/#/spec) - The ao computer is a single, unified computing environment (a Single System Image), hosted on a heterogenous set of nodes in a distributed network. 
 
-[ao Cookbook](https://ao.g8way.io/)
+[ao Official Repo](https://github.com/permaweb/ao) - The ao computer is the actor oriented machine that emerges from the network of nodes that adhere to its core data protocol, running on the Arweave network.
 
-[ao Cookbook](https://ao.g8way.io/)
+[ao Cookbook](https://ao.g8way.io/) - The ao computer is a world where countless parallel processes interact within a single, cohesive computing environment, seamlessly interlinked through a native message-passing layer.
 
-[ao Cookbook](https://ao.g8way.io/)
+[ao Module](https://cookbook_ao.g8way.io/references/ao.html) - ao process communication is handled by messages, each process receives messages in the form of ANS-104 DataItems, and needs to be able to do the following common operations.
 
-[ao Cookbook](https://ao.g8way.io/)
+[Get Started in 5 Min](https://cookbook_ao.g8way.io/welcome/getting-started.html) - Get ao up and running in your local dev enviorment in under 5 minutes. 
+
+[ao Tutorials](https://cookbook_ao.g8way.io/tutorials/begin/index.html) - tutorials that will walk you through an interactive set of steps that will help you deepen your knowledge and understanding of the aos environment.
+
+[aos Introduction](https://cookbook_ao.g8way.io/guides/aos/intro.html) - aos is a different approach to building Processes or Contracts, the ao computer is a decentralized computer network that allows compute to run anywhere and aos in a unique interactive shell.
+
+[Accessing Data from Arweave with ao](https://cookbook_ao.g8way.io/references/data.html) - In order, to request data from arweave, you simply call Assign with a list of processes you would like to assign the data to, and a Message which is the txid of a Message.
+
+[.load in ao process](https://cookbook_ao.g8way.io/guides/aos/load.html) - This feature allows you to load lua code from a source file on your local machine, this simple feature gives you a nice DX experience for working with aos processes.
+
+[Installing ao connect](https://cookbook_ao.g8way.io/guides/aoconnect/connecting.html) - Install ao connect in to your Nodejs & Browser app.
+
+[Connecting to specific ao nodes](https://cookbook_ao.g8way.io/guides/aos/load.html) - When including ao connect in your code you have the ability to connect to a specific MU and CU, as well as being able to specifiy an Arweave gateway. 
+
+[Sending a Message to a Process](https://cookbook_ao.g8way.io/guides/aoconnect/sending-messages.html) - Sending a message is the central way in which your app can interact with ao. A message is input to a process.
+
+[Reading results from an ao Process](https://cookbook_ao.g8way.io/guides/aoconnect/reading-results.html) - A call to results can also provide you paginated list of multiple results.
+
+[Spawning a Process](https://cookbook_ao.g8way.io/guides/aoconnect/spawning-processes.html) - In order to spawn a Process you must have the TXID of an ao Module that has been uploaded to Arweave.
+
+[Calling DryRun](https://cookbook_ao.g8way.io/guides/aoconnect/calling-dryrun.html) - DryRun is the process of sending a message object to a specific process and getting the Result object back, but the memory is not saved, it is perfect to create a read message to return the current value of memory.
+
+[Monitoring Cron](https://cookbook_ao.g8way.io/guides/aoconnect/monitoring-cron.html) - Setting cron tags means that your process will start producing cron results in its outbox, but you need to monitor these results if you want messages from those results to be pushed through the network.
+
+[Sending an Assignment to a Process](https://cookbook_ao.g8way.io/guides/aoconnect/assign-data.html) - Assignments can be used to load Data from another Message into a Process. Or to not duplicate Messages.
+
+[Core ao Concepts](https://cookbook_ao.g8way.io/concepts/index.html) -ao has a couple of core concepts built into the design.
 
 ## ArDrive / TURBO Documentation ##
 
@@ -166,6 +223,10 @@ At our event, we'll provide guidance, answer your questions, and offer hands-on 
 
 ## ArIO Documentation ##
 
+[Gateway Architechture](https://docs.ar.io/gateways/) - A gateway’s primary role in the Arweave ecosystem is to act as a bridge between the Arweave network and the outside world. 
+
+[ArIO Docs](https://docs.ar.io) - The AR.IO ecosystem is dedicated to cultivating products and protocols for sustaining access to digital permanence, making the permaweb available to everyone.
+
 [ArIO SDK](https://github.com/ar-io/ar-io-sdk) - This SDK provides functionality for interacting with the ar.io ecosystem of services (e.g. gateways and observers) and protocols (e.g. ArNS). It is available for both NodeJS and Web environments.
 
 ## Permaweb Cookbook ##
@@ -186,18 +247,6 @@ At our event, we'll provide guidance, answer your questions, and offer hands-on 
 
 [Path Manifests](https://cookbook.arweave.dev/concepts/manifests.html) - Path Manifests are a way to link multiple transactions together under a single base transaction ID and give them human readable file names. 
 
-## Starter Kit and Getting Started ##
-
-[React Starter Kits](https://cookbook.arweave.dev/kits/react/index.html)
-
-[Svelte Starter Kits](https://cookbook.arweave.dev/kits/svelte/index.html)
-
-[Vue Starter Kits](https://cookbook.arweave.dev/kits/vue/index.html)
-
-[AOS Release v1.0.25 ](https://www.crowdcast.io/c/aoventureskeynote6)
-
-[AOS-Sqlite Workshop by Tom Wilson](https://hackmd.io/@ao-docs/rkM1C9m40)
-
 ## Recommended VS Code Extensions ##
 
 [ES-Lint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) |
@@ -206,7 +255,22 @@ At our event, we'll provide guidance, answer your questions, and offer hands-on 
 [ZipFS](https://marketplace.visualstudio.com/items?itemName=arcanis.vscode-zipfs) |
 [LUA\AO lua-language-server](https://marketplace.visualstudio.com/items?itemName=sumneko.lua)
 
+## Other Resources ##
+[Understanding Lua](https://cookbook_ao.g8way.io/references/lua.html) - Lua is a lightweight, high-level, multi-paradigm programming language designed primarily for embedded systems and clients. It's known for its efficiency, simplicity, and flexibility
 
+[Lua Documentation](https://www.lua.org/docs.html) - The official definition of the Lua language is its reference manual, which describes the syntax and the semantics of Lua, the standard libraries, and the C API
+
+[ArweaveKit Docs](https://docs.arweavekit.com/wallets/introduction) - ArweaveKit aims to lower the barrier of onboarding and building on Arweave by creating a well documented one-stop library.
+
+[Orbit Playground](https://playground.0rbit.co/) - Test 0rbit in your browser.
+
+[Orbit Documentation](https://docs.0rbit.co/) - 0rbit Documentation.
+
+[Lorimer Jenkins AOV Workshop Repo](https://github.com/lorimerjenkins/aov-workshop)
+
+[What is Irys](https://irys.xyz/what-is-irys)
+
+[ao Tokens](https://github.com/labscommunity/ao-tokens) - This library makes it easy to interact with tokens and operate with token quantities.
 
 ---
 
