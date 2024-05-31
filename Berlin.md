@@ -328,6 +328,9 @@ await message({
 [LUA\AO lua-language-server](https://marketplace.visualstudio.com/items?itemName=sumneko.lua)
 
 ## Other Resources ##
+
+[Building on Arweave: Tools for Token-Gated Access for Web3 Protocols](https://www.aoventures.io/blog/building-on-arweave-tools-for-token-gated-access-for-web3-protocols) - The concept of token-gated access revolves around restricting access to certain content such as source code to only those individuals/entities that hold a certain amount of $U tokens or AR tokens.
+
 [Understanding Lua](https://cookbook_ao.g8way.io/references/lua.html) - Lua is a lightweight, high-level, multi-paradigm programming language designed primarily for embedded systems and clients. It's known for its efficiency, simplicity, and flexibility
 
 [Lua Documentation](https://www.lua.org/docs.html) - The official definition of the Lua language is its reference manual, which describes the syntax and the semantics of Lua, the standard libraries, and the C API
