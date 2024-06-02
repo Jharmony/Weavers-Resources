@@ -1,6 +1,6 @@
 1. **Quick Start with NextJS/Create React & ArDrive Turbo:**
    - **Next.js/React Setup:** Guide developers through setting up a Next.js or Create React app, highlighting their suitability for Arweave projects due to their modern tooling and server-side rendering capabilities.
-   - **ArDrive Turbo SDK:** Introduce the ArDrive Turbo SDK as the go-to tool for interacting with Arweave, emphasizing its ease of use and powerful features for authentication, balance retrieval, and file uploading.
+   - **ArDrive Turbo SDK:** Introduce the ArDrive Turbo SDK as the go-to tool for interacting with Arweave, emphasizing its ease of use and powerful features for authentication, balance retrieval, and file uploading..
 
 2. **Other NPM Packages:**
    - **@permaweb/aoconnect:** Explain how developers can leverage `@permaweb/aoconnect` for advanced interactions with the Arweave network and the hyper-parallel computer, ao. Highlight features like message passing and process spawning for decentralized application development.
