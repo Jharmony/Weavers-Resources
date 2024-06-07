@@ -335,6 +335,8 @@ await message({
 
 [Lua Documentation](https://www.lua.org/docs.html) - The official definition of the Lua language is its reference manual, which describes the syntax and the semantics of Lua, the standard libraries, and the C API
 
+[AOP-5: WeaveDrive](https://hackmd.io/@ao-docs/H1JK_WezR) - Arweave is a permanent hard drive. AO, a decentralized supercomputer lives on top of it. This AOP adds virtual file system support to pass (large) data read from Arweave directly into AO processes efficiently.
+
 [ArweaveKit Docs](https://docs.arweavekit.com/wallets/introduction) - ArweaveKit aims to lower the barrier of onboarding and building on Arweave by creating a well documented one-stop library.
 
 [Orbit Playground](https://playground.0rbit.co/) - Test 0rbit in your browser.
