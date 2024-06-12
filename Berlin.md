@@ -362,3 +362,5 @@ These walkthroughs provide valuable insights and practical demonstrations that c
 At our event, we'll provide guidance, answer your questions, and offer hands-on assistance to ensure you can deploy your projects on Arweave smoothly. Join us to discover just how easy and powerful deploying on Arweave can be. See you there!
 
 This guide now includes information on both AoConnect and the Turbo SDK, providing developers with options for advanced functionalities when deploying on Arweave.
+
+[![protocol.land](https://arweave.net/eZp8gOeR8Yl_cyH9jJToaCrt2He1PHr0pR4o-mHbEcY)](https://protocol.land/#/repository/<REPO_ID>)
