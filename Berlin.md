@@ -329,6 +329,8 @@ await message({
 
 ## Other Resources ##
 
+[Installing packages on ao processes using APM](https://mirror.xyz/0xCf673b87aFBed6091617331cC895376209d3b923/M4XoQFFCAKBH54bwIsCFT3Frxd575-plCg2o4H1Tujs) - APM is  package mananger for ao process
+
 [Building on Arweave: Tools for Token-Gated Access for Web3 Protocols](https://www.aoventures.io/blog/building-on-arweave-tools-for-token-gated-access-for-web3-protocols) - The concept of token-gated access revolves around restricting access to certain content such as source code to only those individuals/entities that hold a certain amount of $U tokens or AR tokens.
 
 [Understanding Lua](https://cookbook_ao.g8way.io/references/lua.html) - Lua is a lightweight, high-level, multi-paradigm programming language designed primarily for embedded systems and clients. It's known for its efficiency, simplicity, and flexibility
@@ -336,6 +338,8 @@ await message({
 [Lua Documentation](https://www.lua.org/docs.html) - The official definition of the Lua language is its reference manual, which describes the syntax and the semantics of Lua, the standard libraries, and the C API
 
 [AOP-5: WeaveDrive](https://hackmd.io/@ao-docs/H1JK_WezR) - Arweave is a permanent hard drive. AO, a decentralized supercomputer lives on top of it. This AOP adds virtual file system support to pass (large) data read from Arweave directly into AO processes efficiently.
+
+[Learn X in Y minutes Where X = Lua](https://learnxinyminutes.com/docs/lua/) - Starter guide for lua beginnersS
 
 [ArweaveKit Docs](https://docs.arweavekit.com/wallets/introduction) - ArweaveKit aims to lower the barrier of onboarding and building on Arweave by creating a well documented one-stop library.
 
