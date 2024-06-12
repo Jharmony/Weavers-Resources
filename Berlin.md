@@ -363,4 +363,4 @@ At our event, we'll provide guidance, answer your questions, and offer hands-on 
 
 This guide now includes information on both AoConnect and the Turbo SDK, providing developers with options for advanced functionalities when deploying on Arweave.
 
-[![protocol.land](https://arweave.net/eZp8gOeR8Yl_cyH9jJToaCrt2He1PHr0pR4o-mHbEcY)](https://protocol.land/#/repository/DP36hOI_au5FY5GxevqGw0OZgSThNiK4h5sS06AMstw)
+[![protocol.land](https://arweave.net/eZp8gOeR8Yl_cyH9jJToaCrt2He1PHr0pR4o-mHbEcY)](https://protocol.land/#/repository/14428ded-7107-4d78-ae81-7ff37973520e)
