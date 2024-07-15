@@ -6,6 +6,41 @@ Are you new to deploying on Arweave? Don't worry! We're here to show you just ho
 
 If you've never deployed on Arweave before, we've got your back. Join us at our event, and we'll walk you through the process step by step. Whether you have questions or need hands-on assistance, we're here to help you deploy your projects on Arweave smoothly.
 
+## Raid III Weavers Event: Unleashing Creativity on the Arweave Blockchain ##
+
+Welcome to the Raid III Weavers event, a dynamic two-week virtual hackathon from July 24th to August 7th, tailored for the Arweave ecosystem. With $10,000 in bounties, this inclusive event encourages creativity and collaboration among developers and creatives alike. No application is needed—simply join our Weavers Discord, attend the Twitter Space kick-off on July 24th, and start building. 
+
+Access comprehensive resources in the WeaveWorld Documentation section to support your projects. We look forward to seeing your innovative contributions to the Arweave blockchain!
+
+## WeaveWorld Protocols (Verse, Schema, Chat Protocol) ##
+
+**Introduction to WeaveWorld**
+WeaveWorld is our suite of protocols designed to enhance your experience with the Arweave ecosystem. Below are some of the protocols you can explore:
+
+- Verse: A protocol for creating decentralized content and applications.
+- Schema: A protocol for structuring and organizing data.
+- Chat Protocol: A protocol for building decentralized chat applications.
+
+For more detailed documentation and resources, check out the WeaveWorld documentation maintained by Elliot:
+
+***WeaverWorld***
+
+- [WeaveWorld Documentation](https://github.com/elliotsayes/WeaveWorld/tree/main/docs)
+- [WeaveWorld GitHub](https://github.com/elliotsayes/WeaveWorld/tree/main)
+
+***Agents & AI Agents***
+- [Verse Guide](https://github.com/elliotsayes/WeaveWorld/tree/main)
+- [Agent Guide](https://github.com/elliotsayes/WeaveWorld/tree/main)
+- [Llama Complainer Agent](https://github.com/elliotsayes/WeaveWorld/blob/main/process/npc/LlamaComplainer.lua)
+- [Llama Runner Agent](https://github.com/elliotsayes/WeaveWorld/blob/main/process/npc/LlamaRunner.lua)
+
+***Protcols***
+- [Verse Protocol](https://github.com/elliotsayes/WeaveWorld/blob/main/docs/Verse.md)
+- [Schema Protcol](https://github.com/elliotsayes/WeaveWorld/blob/main/docs/Schema.md)
+- [Chat Protocol](https://github.com/elliotsayes/WeaveWorld/blob/main/docs/Chat.md) 
+
+
+
 **How Easy is it to Deploy on Arweave?**
 
 ## Quick Start with NextJS / ArDrive Turbo##
