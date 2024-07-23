@@ -11,7 +11,7 @@ If you've never deployed on Arweave before, we've got your back. Join us at our 
 Welcome to the Raid III Weavers event, a dynamic two-week virtual hackathon from July 24th to August 7th, tailored for the Arweave ecosystem. With $10,000 in bounties, this inclusive event encourages creativity and collaboration among developers and creatives alike. No application is needed—simply join our Weavers Discord, attend the Twitter Space kick-off on July 24th, and start building. 
 
 Access comprehensive resources in the WeaveWorld Documentation section to support your projects. We look forward to seeing your innovative contributions to the Arweave blockchain!
-
+<!-- 
 ## WeaveWorld Protocols (Verse, Schema, Chat Protocol) ##
 
 **Introduction to WeaveWorld**
@@ -38,10 +38,15 @@ For more detailed documentation and resources, check out the WeaveWorld document
 - [Verse Protocol](https://github.com/elliotsayes/WeaveWorld/blob/main/docs/Verse.md)
 - [Schema Protcol](https://github.com/elliotsayes/WeaveWorld/blob/main/docs/Schema.md)
 - [Chat Protocol](https://github.com/elliotsayes/WeaveWorld/blob/main/docs/Chat.md) 
+ -->
 
 
-
-**How Easy is it to Deploy on Arweave?**
+**Raid III event details can be found at Weavers Official**
+- [Raid III Dev & Creative Bounty Details](https://www.weaversofficial.com/raid-bounties).
+- [Permaweb-deploy repo by Nick from BazAR](https://github.com/permaweb/permaweb-deploy?tab=readme-ov-file).
+- [Raid III Luma Event Registration](https://lu.ma/aqmu2dut).
+- [Raid III Project Submission](https://www.weaversofficial.com/raid-bot).
+https://www.weaversofficial.com/raid-bot
 
 ## Quick Start with NextJS / ArDrive Turbo##
 
