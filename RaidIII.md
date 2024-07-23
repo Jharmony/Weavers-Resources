@@ -46,7 +46,6 @@ For more detailed documentation and resources, check out the WeaveWorld document
 - [Permaweb-deploy repo by Nick from BazAR](https://github.com/permaweb/permaweb-deploy?tab=readme-ov-file).
 - [Raid III Luma Event Registration](https://lu.ma/aqmu2dut).
 - [Raid III Project Submission](https://www.weaversofficial.com/raid-bot).
-https://www.weaversofficial.com/raid-bot
 
 ## Quick Start with NextJS / ArDrive Turbo##
 
