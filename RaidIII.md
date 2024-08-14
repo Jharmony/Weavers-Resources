@@ -1,14 +1,12 @@
-## Deploying on Arweave: Build on the Decentralized Web ##
-
+# Deploying on Arweave: Build on the Decentralized Web #
 Are you new to deploying on Arweave? Don't worry! We're here to show you just how straightforward it can be. Whether you're experienced with web development or just starting out, deploying on Arweave is as easy as pie. Here's what you need to know:
 
-**Not Familiar with Deploying on Arweave? No Problem!**
+## Not Familiar with Deploying on Arweave? No Problem! ##
 
-If you've never deployed on Arweave before, we've got your back. Join us at our event, and we'll walk you through the process step by step. Whether you have questions or need hands-on assistance, we're here to help you deploy your projects on Arweave smoothly.
+If you've never deployed on Arweave before, we've got your back. Join us at our Raid IV event, starting on August 14th, and we'll walk you through the process step by step. Whether you have questions or need hands-on assistance, we're here to help you deploy your projects on Arweave smoothly.
 
-## Raid III Weavers Event: Unleashing Creativity on the Arweave Blockchain ##
-
-Welcome to the Raid III Weavers event, a dynamic two-week virtual hackathon from July 24th to August 7th, tailored for the Arweave ecosystem. With $10,000 in bounties, this inclusive event encourages creativity and collaboration among developers and creatives alike. No application is needed—simply join our Weavers Discord, attend the Twitter Space kick-off on July 24th, and start building. 
+## Raid IV Weavers Event: Unleashing Creativity on the Arweave Blockchain ##
+Welcome to the Raid IV Weavers event, a dynamic two-week virtual hackathon from August 14th to August 28th, tailored for the Arweave ecosystem. With $10,000 in bounties, this inclusive event encourages creativity and collaboration among developers and creatives alike. No application is needed—simply join our Weavers Discord, attend the Twitter Space kick-off on August 14th, and start building.
 
 <!-- Access comprehensive resources in the WeaveWorld Documentation section to support your projects. We look forward to seeing your innovative contributions to the Arweave blockchain! -->
 <!-- 
@@ -42,10 +40,10 @@ For more detailed documentation and resources, check out the WeaveWorld document
 
 
 **Raid III event details can be found at Weavers Official**
-- [Raid III Dev & Creative Bounty Details](https://www.weaversofficial.com/raid-bounties).
-- [Permaweb-deploy repo by Nick from BazAR](https://github.com/permaweb/permaweb-deploy?tab=readme-ov-file).
-- [Raid III Luma Event Registration](https://lu.ma/aqmu2dut).
-- [Raid III Project Submission](https://www.weaversofficial.com/raid-bot).
+- [Raid IV Dev & Creative Bounty Details](https://www.weaversofficial.com/raid-bounties).
+- [Reality Protocol](https://github.com/elliotsayes/Reality/tree/main/docs).
+- [Raid IV Luma Event Registration](https://lu.ma/64dh4gax).
+- [Raid IV Project Submission](https://www.weaversofficial.com/raid-bot).
 
 ## Quick Start with NextJS / ArDrive Turbo##
 
