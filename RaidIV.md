@@ -39,11 +39,39 @@ For more detailed documentation and resources, check out the WeaveWorld document
  -->
 
 
-**Raid III event details can be found at Weavers Official**
+**Raid IV event details can be found at Weavers Official**
 - [Raid IV Dev & Creative Bounty Details](https://www.weaversofficial.com/raid-bounties).
 - [Reality Protocol](https://github.com/elliotsayes/Reality/tree/main/docs).
 - [Raid IV Luma Event Registration](https://lu.ma/64dh4gax).
 - [Raid IV Project Submission](https://www.weaversofficial.com/raid-bot).
+
+**Dev Bounty Resources**
+
+[Reality Repo](https://github.com/elliotsayes/Reality/tree/main/docs) - Main resource for building Worlds and Agents within the Reality protocol.
+
+[Nodejs v20^](https://nodejs.org/en/download/package-manager) - Required dependency for AO.
+
+[ao Getting Started](https://cookbook_ao.g8way.io/welcome/getting-started.html) - Main AO documentation which walks you through the installation process (run `npm i -g https://get_ao.g8way.io`)
+
+[Reality World Guide](https://github.com/elliotsayes/Reality/blob/main/docs/WorldGuide.md) - The official guild to creating your own World with Reality Protocol. 
+
+[Reality Agent Guide](https://github.com/elliotsayes/Reality/blob/main/docs/AgentGuide.md) - The official guild to creating your own Agent with Reality Protocol.
+
+<----------------------------------------------------------------------------->
+
+**Creative Bounty Resources**
+
+[Reality Repo](https://github.com/elliotsayes/Reality/tree/main/docs) - Main resource for building Worlds and Agents within the Reality protocol.
+
+[Tiled](https://www.mapeditor.org/) - 2D level editor that helps you develop the content of your game.
+
+[Aseprite](https://www.aseprite.org/) - For sprite editing.
+
+[Photoshop](https://www.adobe.com/products/photoshop.html?gclid=CjwKCAjw8fu1BhBsEiwAwDrsjLOCZZx[…]e!!g!!photoshop%20download!1712238436!67643555220&gad_source=1) - Paid graphics editor.
+
+[Gimp](https://www.gimp.org/downloads/) - Free graphics editor.
+
+[Photopea](https://www.photopea.com/) - In-browser graphic editor
 
 ## Quick Start with NextJS / ArDrive Turbo##
 
@@ -271,6 +299,8 @@ await message({
 
 
 ## AO Documentation ##
+
+[ao Atomic Asset Implementation](https://github.com/permaweb/ao-atomic-asset) - Atomic assets are unique digital items stored on Arweave, where both the asset data and the AO-based process (instead of the traditional SmartWeave) are uploaded in a single, inseparable transaction.
 
 [ao SPEC](https://ao.arweave.dev/#/spec) - The ao computer is a single, unified computing environment (a Single System Image), hosted on a heterogenous set of nodes in a distributed network. 
 
