@@ -63,7 +63,9 @@ For more detailed documentation and resources, check out the WeaveWorld document
 
 [Reality Repo](https://github.com/elliotsayes/Reality/tree/main/docs) - Main resource for building Worlds and Agents within the Reality protocol.
 
-[Tiled](https://www.mapeditor.org/) - 2D level editor that helps you develop the content of your game.
+[Sample Llama Sprite](https://2fqwgh6podgk6fyabvncz7gbarcrbvxcvfa66twp7jr7ghkwy2lq.aoweave.tech/0WFjH89wzK8XAA1aLPzBBEUQ1uKpQe9Oz_pj8x1Wxpc) - A sample sprite that can be edited and reused. 
+
+[Tiled](https://github.com/0rbit-co/reality-example) - 2D level editor that helps you develop the content of your game.
 
 [Aseprite](https://www.aseprite.org/) - For sprite editing.
 
@@ -72,6 +74,24 @@ For more detailed documentation and resources, check out the WeaveWorld document
 [Gimp](https://www.gimp.org/downloads/) - Free graphics editor.
 
 [Photopea](https://www.photopea.com/) - In-browser graphic editor
+
+**Reality Repos**
+
+[Blackjack Agent by Bobinstein](https://github.com/Bobinstein/blackjack-reality-agent) - A Blackjack play AO Reality Agent.
+
+[0rbit Reality World Repo](https://github.com/0rbit-co/reality-example) - An immersive AO Reality world by the 0rbit team.
+
+**Reality Worlds**
+
+[0rbit Super Llama Example Reality](https://reality-viewer.arweave.net/#/qIHUPtG6qTWe2DxH4lLw3_kU3or5dpYagWDHuxafP7k)
+
+[0rbit Reality World Repo](https://github.com/0rbit-co/reality-example)
+
+[Ethan's Reality World](https://reality-viewer.arweave.net/#/zW37ZRyoqWslFCWPhv00TTsLe9buUt9gw9JqCvPOpsk)
+
+[Ethan's Reality World](https://reality-viewer.arweave.net/#/zW37ZRyoqWslFCWPhv00TTsLe9buUt9gw9JqCvPOpsk)
+
+[Jason's Reality World](https://reality-viewer.arweave.net/#/vj_tO0EwnNjqF1cIFLBNoGhlFxG9CyJkA5KJNqP32YE)
 
 ## Quick Start with NextJS / ArDrive Turbo##
 
