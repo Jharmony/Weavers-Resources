@@ -1,195 +1,80 @@
 [![Join our Weavers Discord](https://arweave.net/osw8PJbK1J6clwOj41SHasp_IIdigSPYEuBc9AgSgRM)](https://discord.gg/gvZTg53zuJ)
 
-# Deploying on Arweave: Build on the Decentralized Web #
-Are you new to deploying on Arweave? Don't worry! We're here to show you just how straightforward it can be. Whether you're experienced with web development or just starting out, deploying on Arweave is as easy as pie. Here's what you need to know:
+## Guía Rápida con NextJS / ArDrive Turbo ##
 
-## Not Familiar with Deploying on Arweave? No Problem! ##
-
-If you've never deployed on Arweave before, we've got your back. Join us in [Discord](https://discord.gg/gvZTg53zuJ) for more resources and help from our amazing community. Whether you have questions or need hands-on assistance, we're here to help you deploy your projects on Arweave smoothly.
-
-## LATAM Weavers Event: Unleashing Creativity on the Arweave Blockchain in Colombia ##
-Welcome to the LATAM Weavers event, a dynamic 3-day in person hackathon from September 5th to September 7th, tailored for the Arweave ecosystem. With bounty prizes, this inclusive event encourages creativity and collaboration among developers. If you're a in Bogota, Colombia join our in person event and if you have questions join us in our [Discord](https://discord.gg/gvZTg53zuJ) community. 
-
-<!-- Access comprehensive resources in the WeaveWorld Documentation section to support your projects. We look forward to seeing your innovative contributions to the Arweave blockchain! -->
-<!-- 
-## WeaveWorld Protocols (Verse, Schema, Chat Protocol) ##
-
-**Introduction to WeaveWorld**
-WeaveWorld is our suite of protocols designed to enhance your experience with the Arweave ecosystem. Below are some of the protocols you can explore:
-
-- Verse: A protocol for creating decentralized content and applications.
-- Schema: A protocol for structuring and organizing data.
-- Chat Protocol: A protocol for building decentralized chat applications.
-
-For more detailed documentation and resources, check out the WeaveWorld documentation maintained by Elliot:
-
-***WeaverWorld***
-
-- [WeaveWorld Documentation](https://github.com/elliotsayes/WeaveWorld/tree/main/docs)
-- [WeaveWorld GitHub](https://github.com/elliotsayes/WeaveWorld/tree/main)
-
-***Agents & AI Agents***
-- [Verse Guide](https://github.com/elliotsayes/WeaveWorld/tree/main)
-- [Agent Guide](https://github.com/elliotsayes/WeaveWorld/tree/main)
-- [Llama Complainer Agent](https://github.com/elliotsayes/WeaveWorld/blob/main/process/npc/LlamaComplainer.lua)
-- [Llama Runner Agent](https://github.com/elliotsayes/WeaveWorld/blob/main/process/npc/LlamaRunner.lua)
-
-***Protcols***
-- [Verse Protocol](https://github.com/elliotsayes/WeaveWorld/blob/main/docs/Verse.md)
-- [Schema Protcol](https://github.com/elliotsayes/WeaveWorld/blob/main/docs/Schema.md)
-- [Chat Protocol](https://github.com/elliotsayes/WeaveWorld/blob/main/docs/Chat.md) 
- -->
-Bounties for LATAM hackathon in Colombia
-- Arfleet - ArFleet is a protocol developed for Arweave+AO that streamlines the purchase of time-limited data storage directly from permissionless peers, removing the need for third-party enforcement.
-  - Bounty Details: 
-- Autonomous Finance - a specialized entity devoted to exploring and advancing financial infrastructure within the AO network.
-   -- Bounty Details:
-- Reality Protocol - Reality Protocol enables the mapping of entities within a defined space. Each Reality sets the dimensional parameters (e.g 2 or 3), and every entity's position is captured by a numerical vector.
-
-**Arfleet Resources**
-- [Arfleet Genesis Presentation](https://youtu.be/qLgZ56XbIl0?t=1167)
-- [Arfleet Docs](https://docs.arfleet.io/docs/use-arfleet/arfleet-pass)
-   - [ArFleet Web](ttps://arfleet.io/web)
-   - [ArFleet-JS](ttps://github.com/aoacc/arfleet-js)
-   - [ArFleet-Erlang](https://github.com/aoacc/arfleet-erl)
-- [Arfleet Testnet/GitHub Repo](http://arfleet.io/)
-
-**[Autonomous Finance](https://www.npmjs.com/package/aoform)**
-- [Autonomous Fianance Landing Page](https://www.autonomous.finance/)
--- AO Tooling:
-  [AOForm | VID](https://www.autonomous.finance/research/en-US/aoform)
-  - [AOForm Github Repo](https://github.com/Autonomous-Finance/aoform)
-  - [AOForm NPM package](https://www.npmjs.com/package/aoform)
-  [Testing  VID](https://www.autonomous.finance/research/en-US/testing)
-  - [AO Process Testing](https://github.com/Autonomous-Finance/ao-process-testing)
-  - [AO Process Testing | Demo](https://github.com/Autonomous-Finance/demos/tree/main/process-testing-demo)
--- AO Package:
-  [Subscribable](https://www.autonomous.finance/research/en-US/subscribable)
-  [Ownable](https://github.com/Autonomous-Finance/aos-packages/tree/main/packages/ownable)
-  [Ownable-multi](https://github.com/Autonomous-Finance/aos-packages/tree/main/packages/ownable-multi)
-
-**Reality Protocol Resources**
-
-[Reality Repo](https://github.com/elliotsayes/Reality/tree/main/docs) - Main resource for building Worlds and Agents within the Reality protocol.
-
-[Nodejs v20^](https://nodejs.org/en/download/package-manager) - Required dependency for AO.
-
-[ao Getting Started](https://cookbook_ao.g8way.io/welcome/getting-started.html) - Main AO documentation which walks you through the installation process (run `npm i -g https://get_ao.g8way.io`)
-
-[Reality World Guide](https://github.com/elliotsayes/Reality/blob/main/docs/WorldGuide.md) - The official guild to creating your own World with Reality Protocol. 
-
-[Reality Agent Guide](https://github.com/elliotsayes/Reality/blob/main/docs/AgentGuide.md) - The official guild to creating your own Agent with Reality Protocol.
-
-<----------------------------------------------------------------------------->
-
-**Reality World Design Resources**
-
-[Reality Repo](https://github.com/elliotsayes/Reality/tree/main/docs) - Main resource for building Worlds and Agents within the Reality protocol.
-
-[Sample Llama Sprite](https://2fqwgh6podgk6fyabvncz7gbarcrbvxcvfa66twp7jr7ghkwy2lq.aoweave.tech/0WFjH89wzK8XAA1aLPzBBEUQ1uKpQe9Oz_pj8x1Wxpc) - A sample sprite that can be edited and reused. 
-
-[Tiled](https://github.com/0rbit-co/reality-example) - 2D level editor that helps you develop the content of your game.
-
-[Aseprite](https://www.aseprite.org/) - For sprite editing.
-
-[Photoshop](https://www.adobe.com/products/photoshop.html?gclid=CjwKCAjw8fu1BhBsEiwAwDrsjLOCZZx[…]e!!g!!photoshop%20download!1712238436!67643555220&gad_source=1) - Paid graphics editor.
-
-[Gimp](https://www.gimp.org/downloads/) - Free graphics editor.
-
-[Photopea](https://www.photopea.com/) - In-browser graphic editor
-
-**Helpful Reality Repos**
-
-[Blackjack Agent by Bobinstein](https://github.com/Bobinstein/blackjack-reality-agent) - A Blackjack play AO Reality Agent.
-
-[0rbit Reality World Repo](https://github.com/0rbit-co/reality-example) - An immersive AO Reality world by the 0rbit team.
-
-**Reality Worlds**
-
-[0rbit Super Llama Example Reality](https://reality-viewer.arweave.net/#/qIHUPtG6qTWe2DxH4lLw3_kU3or5dpYagWDHuxafP7k)
-
-[0rbit Reality World Repo](https://github.com/0rbit-co/reality-example)
-
-[Ethan's Reality World](https://reality-viewer.arweave.net/#/zW37ZRyoqWslFCWPhv00TTsLe9buUt9gw9JqCvPOpsk)
-
-[Jason's Reality World](https://reality-viewer.arweave.net/#/vj_tO0EwnNjqF1cIFLBNoGhlFxG9CyJkA5KJNqP32YE)
-
-## Quick Start with NextJS / ArDrive Turbo##
-
-1. **Run create-next-app** Start by building a scafolded nextjs app to work from.
+1. **Ejecuta create-next-app** Comienza creando una aplicación de Next.js escalada para trabajar desde ella.
 
    ```bash
    npx create-next-app
    ```
 
-2. **Install dependencies:** Now we need to install the tools needed for us to interact with Arweave. We will leverage the ArDrive TURBO SDK for this using npm or yarn.
-
+2. **Instala las dependencias:** Ahora necesitamos instalar las herramientas necesarias para interactuar con Arweave. Utilizaremos el SDK ArDrive TURBO para esto usando npm o yarn.
    ```bash
    npm install @ardrive/turbo-sdk
    ```
-   or
+   o
    ```bash
    yarn add @ardrive/turbo-sdk
    ```
 
-3. **Create the script to interact with Arweave** Begin by loading your JWK keyfile for authentication or providing your own signer. Retrieve and display your current Arweave balance to ensure sufficient funds. Define the necessary variables for file upload and calculate the upload cost using TURBO. Compare your TURBO balance with the estimated upload cost to ensure you have enough funds. If necessary, implement a top-up window for additional balance. Finally, upload your file to Arweave, completing the process smoothly and efficiently. 
+3. **Crea el script para interactuar con Arweave** Comienza cargando tu archivo de clave JWK para autenticación o proporcionando tu propio firmador. Recupera y muestra tu saldo actual de Arweave para asegurar fondos suficientes. Define las variables necesarias para la carga de archivos y calcula el costo de carga usando TURBO. Compara tu saldo de TURBO con el costo estimado de carga para asegurar que tienes suficientes fondos. Si es necesario, implementa una ventana de recarga para saldo adicional. Finalmente, carga tu archivo a Arweave, completando el proceso de manera fluida y eficiente. 
 
    ```javascript
    import { TurboFactory, ArweaveSigner } from '@ardrive/turbo-sdk';
 
-   // Authenticating with a JWK
+   // Autenticación con un JWK
    const myKeyFile = fs.readFileSync('./my-secret-key.json');
    const myWalletAddress = arweave.wallets.jwkToAddress(myKeyFile);
    const turboClient = TurboFactory.authenticated({ privateKey: myKeyFile });
    
-   // Alternatively, providing a signer
+   // Alternativamente, proporcionando un firmador
    const mySigner = new ArweaveSigner(myKeyFile);
    const turboClient = TurboFactory.authenticated({ signer: mySigner });
    
-   // Retrieving wallet balance
+   // Recuperando el saldo de la billetera
    const { winc: myBalance } = await turboClient.getBalance();
    
-   // Preparing file for upload
+   // Preparando el archivo para la carga
    const myFilePath = path.join(__dirname, './my-photo.png');
    const myFileSize = fs.statSync(myFilePath).size;
    
-   // Estimating upload cost
+   // Estimando el costo de carga
    const [{ winc: myUploadCost }] = await turboClient.getUploadCosts({
      bytes: [myFileSize],
    });
    
-   // Checking balance before upload
+   // Verificando el saldo antes de la carga
    if (myBalance < myUploadCost) {
      const { url } = await turboClient.createCheckoutSession({
        amount: myUploadCost,
        owner: myWalletAddress,
      });
-     open(url); // Prompt user to top-up balance
+     open(url); // Solicita al usuario recargar saldo
      return;
    }
    
-   // Uploading the file
+   // Cargando el archivo
    try {
      const { id, owner, dataCaches, fastFinalityIndexes } = await turboClient.uploadFile   (() => {
        fileStreamFactory => () => fs.createReadStream(myFilePath),
        fileSizeFactory => () => myFileSize,
      });
-     // File uploaded successfully
+     // Archivo cargado exitosamente
      console.log('Data item uploaded successfully!', { id, owner, dataCaches,    fastFinalityIndexes });
    } catch (error) {
-     // Error handling
+     // Manejo de errores
      console.error('Failed to upload data item!', error);
    } finally {
-     // Checking new balance after upload
+     // Verificando el nuevo saldo después de la carga
      const { winc: myNewBalance } = await turboClient.getBalance();
      console.log('New balance:', myNewBalance);
    }
    ```
-Read the ArDrive [Turbo SDK](https://docs.ardrive.io/) docs for more details. 
+Lee la documentación de ArDrive [Turbo SDK](https://docs.ardrive.io/) para más detalles. 
 
-## Other NPM Packages: ##
+## Otros Paquetes NPM: ##
 
-For more sophisticated interactions and additional functionalities, consider using advanced tools like **@permaweb/aoconnect** and **@ardriveapp/turbo-sdk**. These libraries provide additional features for interacting with the Arweave network, giving you more options and flexibility in your development workflow.
+Para interacciones más sofisticadas y funcionalidades adicionales, considera usar herramientas avanzadas como @permaweb/aoconnect y @ardriveapp/turbo-sdk. Estas bibliotecas proporcionan características adicionales para interactuar con la red Arweave, brindándote más opciones y flexibilidad en tu flujo de trabajo de desarrollo.
 
 **Turbo SDK:**
 
@@ -197,7 +82,7 @@ For more sophisticated interactions and additional functionalities, consider usi
 npm install @ardrive/turbo-sdk
 ```
 
-Here's a quick example of how to use the Turbo SDK to upload a file to Arweave:
+Aquí tienes un ejemplo rápido de cómo usar el Turbo SDK para cargar un archivo en Arweave:
 
 ```javascript
 import { TurboFactory } from '@ardrive/turbo-sdk';
@@ -212,10 +97,10 @@ const uploadResponse = await turbo.uploadFile({
   fileSizeFactory: () => fileSize,
 });
 
-console.log('Upload complete:', uploadResponse);
+console.log('Carga completa:', uploadResponse);
 ```
 
-For more in-depth walkthroughs and tutorials, we highly recommend checking out our previous hackathon sessions:
+Para recorridos más detallados y tutoriales, te recomendamos encarecidamente revisar nuestras sesiones de hackathon anteriores:
 
 **AoConnect:**
 
@@ -223,53 +108,52 @@ For more in-depth walkthroughs and tutorials, we highly recommend checking out o
 npm install --save @permaweb/aoconnect
 ```
 
-Here's a quick example of how to use AoConnect to send a message on the Arweave network:
+Aquí tienes un ejemplo rápido de cómo usar AoConnect para enviar un mensaje en la red Arweave:
 
 ```javascript
-import { message, createDataItemSigner } from "@permaweb/aoconnect";
-
 const wallet = JSON.parse(fs.readFileSync('path/to/wallet.json'));
 
+// Enviando un mensaje
 await message({
-    process: "process-id",
+    process: "process-id",  // ID del proceso
     tags: [
-        { name: "Your-Tag-Name-Here", value: "your-tag-value" },
-        { name: "Another-Tag", value: "another-value" },
+        { name: "Your-Tag-Name-Here", value: "your-tag-value" },  // Etiqueta y valor personalizados
+        { name: "Another-Tag", value: "another-value" },  // Otra etiqueta y valor
     ],
-    signer: createDataItemSigner(wallet),
-    data: "any data",
+    signer: createDataItemSigner(wallet),  // Firmador del elemento de datos
+    data: "any data",  // Datos que se enviarán
 })
-.then(console.log)
-.catch(console.error);
+.then(console.log)  // Mostrar el resultado en la consola
+.catch(console.error);  // Mostrar errores en la consola
 ```
 
-## To the metal with Arweave.js ##
+## Al metal con Arweave.js ##
 
-1. **Install Arweave.js:** Start by installing Arweave.js, a JavaScript/TypeScript SDK for interacting with the Arweave network. This SDK allows you to easily connect your projects to Arweave, enabling decentralized storage and permanent hosting.
-
+1. **Instalar Arweave.js::** Comienza instalando Arweave.js, un SDK de JavaScript/TypeScript para interactuar con la red Arweave. Este SDK te permite conectar fácilmente tus proyectos a Arweave, habilitando almacenamiento descentralizado y hosting permanente.
+   
    ```bash
    npm install --save arweave
    ```
 
-2. **Initialize Arweave:** Once you've installed Arweave.js, it's time to initialize it. This step sets up Arweave to connect to a gateway, which acts as your entry point to the Arweave network. Don't worry; it's just a few lines of code!
+2. **Inicializar Arweave** Una vez que hayas instalado Arweave.js, es hora de inicializarlo. Este paso configura Arweave para conectar a un gateway, que actúa como tu punto de entrada a la red Arweave. ¡No te preocupes; son solo unas pocas líneas de código!
 
    ```javascript
    const Arweave = require('arweave');
 
-   const arweave = Arweave.init({
-       host: 'arweave.net', // Or other node
-       port: 443,           // HTTPS port
-       protocol: 'https'    // Local development
-   });
+  const arweave = Arweave.init({
+  host: 'arweave.net', // O otro nodo
+  port: 443,           // Puerto HTTPS
+  protocol: 'https'    // Desarrollo local
+});
    ```
 
-3. **Create and Sign Transactions:** With Arweave.js initialized, you can start creating and signing transactions to store your project data on the Arweave network. These transactions can include HTML, JSON, or any other type of data you want to store permanently.
+3. **Create and Sign Transactions:** Con Arweave.js inicializado, puedes comenzar a crear y firmar transacciones para almacenar los datos de tu proyecto en la red Arweave. Estas transacciones pueden incluir HTML, JSON o cualquier otro tipo de dato que quieras almacenar permanentemente.
 
    ```javascript
    const myWallet = JSON.parse(fs.readFileSync('path/to/wallet.json'));
 
    const myTransaction = await arweave.createTransaction({
-     data: 'Welcome to Berlin!',
+     data: '¡Bienvenido a Colombia!',
    }, myWallet);
    
    myTransaction.addTag('Content-Type', 'text/plain');
@@ -280,38 +164,39 @@ await message({
    console.log(myResponse.status);
    ```
 
-## Weavers YT ##
-- [Turbo SDK 101 with Stephen (aka Bobinstein) from Ario: Dive into the basics of the Turbo SDK and learn how to harness its power for your Arweave projects.](https://youtu.be/3F95opFzZ7Q?si=gwxQnp32SMza9tgS)
+## Videos en Weavers YT ##
+- [Turbo SDK 101 con Stephen (alias Bobinstein) de Ario: Sumérgete en los conceptos básicos del Turbo SDK y aprende a aprovechar su poder para tus proyectos en Arweave.](https://youtu.be/3F95opFzZ7Q?si=gwxQnp32SMza9tgS)
 
-- [Building an Arena Game on AO with Bots by Tom Rakis: Explore how to build interactive games on the Arweave network using the AO protocol.](https://youtu.be/BPHzWywrBLo?si=B-pj026YC7NDgurE)
+- [Construyendo un Juego de Arena en AO con Bots por Tom Rakis: Explora cómo construir juegos interactivos en la red Arweave utilizando el protocolo AO.](https://youtu.be/BPHzWywrBLo?si=B-pj026YC7NDgurE)
 
-- [Gather Chat Walkthrough Video: Discover how to create decentralized chat applications using Arweave and Gather.](https://youtu.be/zF9d5Y5L2iY?si=KeR0U0_IegvnPaG_)
+- [Video de Tutorial de Gather Chat: Descubre cómo crear aplicaciones de chat descentralizadas usando Arweave y Gather.](https://youtu.be/zF9d5Y5L2iY?si=KeR0U0_IegvnPaG_)
 
-## aoVenture Sessions ##
+## Sesiones aoVenture ##
 
-- [Ao Ventures Keynote #1 by Phil Mataras - Ar.io / ArDrive](https://www.youtube.com/watch?v=PJWHKA90UfU)
+- [Ao Ventures Keynote #1 por Phil Mataras - Ar.io / ArDrive](https://www.youtube.com/watch?v=PJWHKA90UfU)
 
-- [Ao Ventures Keynote #2 by Tom Wilson - Memeframes](https://www.crowdcast.io/c/aoventureskeynote2)
+- [Ao Ventures Keynote #2 por Tom Wilson - Memeframes](https://www.crowdcast.io/c/aoventureskeynote2)
 
-- [Ao Ventures Keynote #3 by Marton - ao tooling](https://www.crowdcast.io/c/aoventureskeynote3)
+- [Ao Ventures Keynote #3 por Marton - herramientas ao](https://www.crowdcast.io/c/aoventureskeynote3)
 
-- [Ao Ventures Keynote #6 by Tom Wilson](https://www.crowdcast.io/c/aoventureskeynote6)
+- [Ao Ventures Keynote #6 por Tom Wilson](https://www.crowdcast.io/c/aoventureskeynote6)
 
-- [Building an Arena Game on AO with Bots by Tom Rakis: Explore how to build interactive games on the Arweave network using the AO protocol.](https://youtu.be/BPHzWywrBLo?si=B-pj026YC7NDgurE)
+- [Construyendo un Juego de Arena en AO con Bots por Tom Rakis: Explora cómo construir juegos interactivos en la red Arweave utilizando el protocolo AO.](https://youtu.be/BPHzWywrBLo?si=B-pj026YC7NDgurE)
 
-- [Gather Chat Walkthrough Video: Discover how to create decentralized chat applications using Arweave and Gather.](https://youtu.be/zF9d5Y5L2iY?si=KeR0U0_IegvnPaG_)
+- [GVideo de Tutorial de Gather Chat: Descubre cómo crear aplicaciones de chat descentralizadas usando Arweave y Gather.](https://youtu.be/zF9d5Y5L2iY?si=KeR0U0_IegvnPaG_)
 
-## Other Videos ##
-- [Permanent File Storage for Web3 Applications with Arweave, Bundlr(now Irys), and Next.js (Full Stack Guide)](https://www.youtube.com/watch?v=aUU-eHCB6j8&t=613s)
+## Otros Videos ##
 
-- [Store your NFT data on Arweave](https://www.youtube.com/watch?v=MTSPjmCmdqs&t=40s)
+- [Almacenamiento de Archivos Permanente para Aplicaciones Web3 con Arweave, Bundlr (ahora Irys) y Next.js (Guía Completa)](https://www.youtube.com/watch?v=aUU-eHCB6j8&t=613s)
 
-## Examples Built with Arweave and AO ##
+- [Almacena tus datos NFT en Arweave](https://www.youtube.com/watch?v=MTSPjmCmdqs&t=40s)
+
+## Ejemplos Construidos con Arweave y AO ##
 
 [Gather Chat](https://gatherchat.g8way.io/#/)
 | [Repo](https://github.com/elliotsayes/gatherchat)
 
-[TYPR - AO Twitter Clone](https://www.typr.day/) | [Repo](https://github.com/iamgamelover/ao-twitter)
+[TYPR - Clon de Twitter AO](https://www.typr.day/) | [Repo](https://github.com/iamgamelover/ao-twitter)
 
 [Pet or Rekt](https://dumdum.g8way.io/)
 
@@ -323,152 +208,149 @@ await message({
 
 [Helix](https://helix.g8way.io)
 
+## Kit de Inicio y Primeros Pasos ##
 
-## Starter Kit and Getting Started ##
+[Kits de Inicio para React](https://cookbook.arweave.dev/kits/react/index.html)
 
-[React Starter Kits](https://cookbook.arweave.dev/kits/react/index.html)
+[Kits de Inicio para Svelte](https://cookbook.arweave.dev/kits/svelte/index.html)
 
-[Svelte Starter Kits](https://cookbook.arweave.dev/kits/svelte/index.html)
+[Kits de Inicio para Vue](https://cookbook.arweave.dev/kits/vue/index.html)
 
-[Vue Starter Kits](https://cookbook.arweave.dev/kits/vue/index.html)
+[Lanzamiento de AOS v1.0.25](https://www.crowdcast.io/c/aoventureskeynote6)
 
-[AOS Release v1.0.25 ](https://www.crowdcast.io/c/aoventureskeynote6)
+[Taller AOS-Sqlite por Tom Wilson](https://hackmd.io/@ao-docs/rkM1C9m40)
 
-[AOS-Sqlite Workshop by Tom Wilson](https://hackmd.io/@ao-docs/rkM1C9m40)
+[Repo de Kwil-db](https://github.com/kwilteam/kwil-db)
 
-[Kwil-db Repo](https://github.com/kwilteam/kwil-db)
+## Documentación de AO ##
 
+[Implementación de Activos Atómicos AO](https://github.com/permaweb/ao-atomic-asset) - Los activos atómicos son elementos digitales únicos almacenados en Arweave, donde tanto los datos del activo como el proceso basado en AO (en lugar del tradicional SmartWeave) se suben en una única transacción inseparable.
 
-## AO Documentation ##
+[Especificaciones de AO](https://ao.arweave.dev/#/spec) - El computador AO es un entorno de computación unificado (una Imagen de Sistema Único), alojado en un conjunto heterogéneo de nodos en una red distribuida.
 
-[ao Atomic Asset Implementation](https://github.com/permaweb/ao-atomic-asset) - Atomic assets are unique digital items stored on Arweave, where both the asset data and the AO-based process (instead of the traditional SmartWeave) are uploaded in a single, inseparable transaction.
+[Repo Oficial de AO](https://github.com/permaweb/ao) - El computador AO es la máquina orientada a actores que emerge de la red de nodos que se adhieren a su protocolo de datos central, ejecutándose en la red Arweave.
 
-[ao SPEC](https://ao.arweave.dev/#/spec) - The ao computer is a single, unified computing environment (a Single System Image), hosted on a heterogenous set of nodes in a distributed network. 
+[Recetario de AO](https://ao.g8way.io/) - El computador AO es un mundo donde innumerables procesos paralelos interactúan dentro de un entorno de computación cohesivo, interconectados a través de una capa de mensajería nativa.
 
-[ao Official Repo](https://github.com/permaweb/ao) - The ao computer is the actor oriented machine that emerges from the network of nodes that adhere to its core data protocol, running on the Arweave network.
+[Módulo de AO](https://cookbook_ao.g8way.io/references/ao.html) - La comunicación de procesos AO se maneja mediante mensajes; cada proceso recibe mensajes en forma de ANS-104 DataItems, y debe ser capaz de realizar las siguientes operaciones comunes.
 
-[ao Cookbook](https://ao.g8way.io/) - The ao computer is a world where countless parallel processes interact within a single, cohesive computing environment, seamlessly interlinked through a native message-passing layer.
+[Comenzar en 5 Min](https://cookbook_ao.g8way.io/welcome/getting-started.html) - Configura AO en tu entorno de desarrollo local en menos de 5 minutos.
 
-[ao Module](https://cookbook_ao.g8way.io/references/ao.html) - ao process communication is handled by messages, each process receives messages in the form of ANS-104 DataItems, and needs to be able to do the following common operations.
+[Tutoriales de AO](https://cookbook_ao.g8way.io/tutorials/begin/index.html) - Tutoriales que te guiarán a través de una serie de pasos interactivos para profundizar tu conocimiento y comprensión del entorno AO.
 
-[Get Started in 5 Min](https://cookbook_ao.g8way.io/welcome/getting-started.html) - Get ao up and running in your local dev enviorment in under 5 minutes. 
+[Introducción a AOS](https://cookbook_ao.g8way.io/guides/aos/intro.html) - AOS es un enfoque diferente para construir Procesos o Contratos, el computador AO es una red de computación descentralizada que permite que el cómputo se ejecute en cualquier lugar y AOS en un shell interactivo único.
 
-[ao Tutorials](https://cookbook_ao.g8way.io/tutorials/begin/index.html) - tutorials that will walk you through an interactive set of steps that will help you deepen your knowledge and understanding of the aos environment.
+[Acceso a Datos desde Arweave con AO](https://cookbook_ao.g8way.io/references/data.html) - Para solicitar datos desde Arweave, simplemente llama a Assign con una lista de procesos a los que te gustaría asignar los datos, y un Mensaje que es el txid de un Mensaje.
 
-[aos Introduction](https://cookbook_ao.g8way.io/guides/aos/intro.html) - aos is a different approach to building Processes or Contracts, the ao computer is a decentralized computer network that allows compute to run anywhere and aos in a unique interactive shell.
+[Carga en el Proceso AO](https://cookbook_ao.g8way.io/guides/aos/load.html) - Esta característica permite cargar código Lua desde un archivo fuente en tu máquina local, proporcionando una experiencia de desarrollo agradable para trabajar con procesos AOS.
 
-[Accessing Data from Arweave with ao](https://cookbook_ao.g8way.io/references/data.html) - In order, to request data from arweave, you simply call Assign with a list of processes you would like to assign the data to, and a Message which is the txid of a Message.
+[Instalando AO Connect](https://cookbook_ao.g8way.io/guides/aoconnect/connecting.html) - Instala AO Connect en tu aplicación Node.js y navegador.
 
-[.load in ao process](https://cookbook_ao.g8way.io/guides/aos/load.html) - This feature allows you to load lua code from a source file on your local machine, this simple feature gives you a nice DX experience for working with aos processes.
+[Conectando a nodos específicos de AO](https://cookbook_ao.g8way.io/guides/aos/load.html) - Al incluir AO Connect en tu código, tienes la capacidad de conectarte a un MU y CU específicos, así como a una puerta de enlace Arweave.
 
-[Installing ao connect](https://cookbook_ao.g8way.io/guides/aoconnect/connecting.html) - Install ao connect in to your Nodejs & Browser app.
+[Enviando un Mensaje a un Proceso](https://cookbook_ao.g8way.io/guides/aoconnect/sending-messages.html) - Enviar un mensaje es la forma central en la que tu aplicación puede interactuar con AO. Un mensaje es la entrada a un proceso.
 
-[Connecting to specific ao nodes](https://cookbook_ao.g8way.io/guides/aos/load.html) - When including ao connect in your code you have the ability to connect to a specific MU and CU, as well as being able to specifiy an Arweave gateway. 
+[Lectura de resultados de un Proceso AO](https://cookbook_ao.g8way.io/guides/aoconnect/reading-results.html) - Una llamada a resultados también puede proporcionarte una lista paginada de múltiples resultados.
 
-[Sending a Message to a Process](https://cookbook_ao.g8way.io/guides/aoconnect/sending-messages.html) - Sending a message is the central way in which your app can interact with ao. A message is input to a process.
+[Generación de un Proceso](https://cookbook_ao.g8way.io/guides/aoconnect/spawning-processes.html) - Para generar un Proceso debes tener el TXID de un Módulo AO que se haya cargado en Arweave.
 
-[Reading results from an ao Process](https://cookbook_ao.g8way.io/guides/aoconnect/reading-results.html) - A call to results can also provide you paginated list of multiple results.
+[Llamada a DryRun](https://cookbook_ao.g8way.io/guides/aoconnect/calling-dryrun.html) - DryRun es el proceso de enviar un objeto de mensaje a un proceso específico y obtener el objeto de Resultado de vuelta, pero la memoria no se guarda, es perfecto para crear un mensaje de lectura para devolver el valor actual de la memoria.
 
-[Spawning a Process](https://cookbook_ao.g8way.io/guides/aoconnect/spawning-processes.html) - In order to spawn a Process you must have the TXID of an ao Module that has been uploaded to Arweave.
+[Monitoreo de Cron](https://cookbook_ao.g8way.io/guides/aoconnect/monitoring-cron.html) - Configurar etiquetas cron significa que tu proceso comenzará a producir resultados de cron en su buzón de salida, pero necesitas monitorear estos resultados si quieres que los mensajes de esos resultados se envíen a través de la red.
 
-[Calling DryRun](https://cookbook_ao.g8way.io/guides/aoconnect/calling-dryrun.html) - DryRun is the process of sending a message object to a specific process and getting the Result object back, but the memory is not saved, it is perfect to create a read message to return the current value of memory.
+[Enviando una Asignación a un Proceso](https://cookbook_ao.g8way.io/guides/aoconnect/assign-data.html) - Las asignaciones se pueden usar para cargar Datos desde otro Mensaje a un Proceso. O para no duplicar Mensajes.
 
-[Monitoring Cron](https://cookbook_ao.g8way.io/guides/aoconnect/monitoring-cron.html) - Setting cron tags means that your process will start producing cron results in its outbox, but you need to monitor these results if you want messages from those results to be pushed through the network.
+[Conceptos Básicos de AO](https://cookbook_ao.g8way.io/concepts/index.html) - AO tiene un par de conceptos básicos incorporados en el diseño.
 
-[Sending an Assignment to a Process](https://cookbook_ao.g8way.io/guides/aoconnect/assign-data.html) - Assignments can be used to load Data from another Message into a Process. Or to not duplicate Messages.
+## Documentación de ArDrive / TURBO ##
 
-[Core ao Concepts](https://cookbook_ao.g8way.io/concepts/index.html) -ao has a couple of core concepts built into the design.
+[ArDrive Core](https://docs.ardrive.io/docs/core-sdk.html#overview) - una biblioteca TypeScript que contiene las características esenciales del backend para soportar el CLI y las aplicaciones de escritorio de ArDrive, como la gestión de archivos, la carga/descarga en la Permaweb, la gestión de carteras y otras funciones comunes.
 
-## ArDrive / TURBO Documentation ##
+[Publicación de Transacciones con ArDrive Turbo](https://cookbook.arweave.dev/guides/posting-transactions/turbo.html) - Publicar transacciones utilizando Turbo se puede lograr mediante el paquete JavaScript @ardrive/turbo-sdk.
 
-[ArDrive Core](https://docs.ardrive.io/docs/core-sdk.html#overview) - a TypeScript library that contains the essential back end application features to support the ArDrive CLI and Desktop apps, such as file management, Permaweb upload/download, wallet management, and other common functions.
+[CLI de ArDrive & ArFS](https://docs.ardrive.io/docs/cli/#arfs) - ofrece operaciones de utilidad para interactuar de forma segura con las carteras de Arweave e inspeccionar varias condiciones de la cadena de bloques Arweave.
 
-[Posting Transactions with Ardrive Turbo](https://cookbook.arweave.dev/guides/posting-transactions/turbo.html) - Posting transactions using Turbo can be accomplished using the @ardrive/turbo-sdk JavaScript package.
+[ArDrive CLI Primeros Pasos](https://docs.ardrive.io/docs/cli/getting-started.html#prerequisites) - la forma más rápida de comenzar es instalar globalmente la última versión del CLI de ArDrive en tu sistema local a través de NPM.
 
-[ArDrive CLI & ArFS](https://docs.ardrive.io/docs/cli/#arfs) - offers utility operations for securely interacting with Arweave wallets and inspecting various Arweave (opens new window)blockchain conditions.
+[Protocolo ArFS](https://docs.ardrive.io/docs/arfs/#key-features) - El Sistema de Archivos Arweave, o “ArFS” es un protocolo de modelado, almacenamiento y recuperación de datos diseñado para emular operaciones comunes del sistema de archivos y proporcionar aspectos de mutabilidad a tu jerarquía de datos en el almacenamiento de datos permanente e inmutable de Arweave.
 
-[ArDrive CLI Getting Started](https://docs.ardrive.io/docs/cli/getting-started.html#prerequisites) - the fastest way to get up and running is to globally install the latest version of the ArDrive CLI to your local system via NPM
+[API de Pago de TURBO](https://docs.ardrive.io/docs/turbo/api/payment.html) - ArDrive ofrece varios puntos finales de API para ayudar a gestionar y determinar los costos asociados con la conversión de monedas en créditos Turbo.
 
-[ArFS Protocol](https://docs.ardrive.io/docs/arfs/#key-features) - Arweave File System, or “ArFS” is a data modeling, storage, and retrieval protocol designed to emulate common file system operations and to provide aspects of mutability to your data hierarchy on Arweave (opens new window)'s otherwise permanent, immutable data storage blockweave.
+[API de Carga de TURBO](https://docs.ardrive.io/docs/turbo/api/upload.html) - El Servicio de Carga Turbo admite el pago de elementos de datos firmados para upload.ardrive.io utilizando Créditos Turbo.
 
-[TURBO Payment API](https://docs.ardrive.io/docs/turbo/api/payment.html) - ArDrive offers several API endpoints to help manage and determine costs associated with converting currencies into Turbo credits.
+[TURBO SDK](https://docs.ardrive.io/docs/turbo/turbo-sdk/) - Este SDK proporciona funcionalidad para interactuar con los Servicios de Carga y Pago de Turbo y está disponible tanto para entornos NodeJS como para la web.
+[EthAReum](https://docs.ardrive.io/docs/misc/ethareum/#overview) - EthAReum es un nuevo protocolo de derivación de claves que permite la generación de claves privadas para una cartera Arweave utilizando una firma de una cartera Ethereum. Esto permite a los usuarios crear una cartera Arweave directamente a través de un proveedor de carteras Ethereum como MetaMask.
 
-[TURBO Upload API](https://docs.ardrive.io/docs/turbo/api/upload.html) - The Turbo Upload Service supports payment for signed data-items to upload.ardrive.io using Turbo Credits.
+[Permasites](https://docs.ardrive.io/docs/misc/permasite.html#overview) - ArDrive ofrece la capacidad de guardar copias de trabajo de sitios web estáticos permanentemente en Arweave.
 
-[TURBO SDK](https://docs.ardrive.io/docs/turbo/turbo-sdk/) - This SDK provides functionality for interacting with the Turbo Upload and Payment Services and is available for both NodeJS and Web environments.
+## Documentación de ArIO ##
 
-[EthAReum](https://docs.ardrive.io/docs/misc/ethareum/#overview) - EthAReum is a new key derivation protocol that enables the generation of private keys for an Arweave wallet using a signature from an Ethereum wallet. This allows users to create an Arweave wallet directly through an Ethereum wallet provider like MetaMask.
+[Arquitectura de Gateway](https://docs.ar.io/gateways/) - El papel principal de un gateway en el ecosistema Arweave es actuar como un puente entre la red Arweave y el mundo exterior.
 
-[Permasites](https://docs.ardrive.io/docs/misc/permasite.html#overview) - ArDrive offers the ability to save working copies of static websites permanently on Arweave.
+[Documentación de ArIO](https://docs.ar.io) - El ecosistema AR.IO está dedicado a cultivar productos y protocolos para mantener el acceso a la permanencia digital, haciendo que el permaweb esté disponible para todos.
 
-## ArIO Documentation ##
-
-[Gateway Architechture](https://docs.ar.io/gateways/) - A gateway’s primary role in the Arweave ecosystem is to act as a bridge between the Arweave network and the outside world. 
-
-[ArIO Docs](https://docs.ar.io) - The AR.IO ecosystem is dedicated to cultivating products and protocols for sustaining access to digital permanence, making the permaweb available to everyone.
-
-[ArIO SDK](https://github.com/ar-io/ar-io-sdk) - This SDK provides functionality for interacting with the ar.io ecosystem of services (e.g. gateways and observers) and protocols (e.g. ArNS). It is available for both NodeJS and Web environments.
+[ArIO SDK](https://github.com/ar-io/ar-io-sdk) - Este SDK proporciona funcionalidad para interactuar con el ecosistema de servicios (por ejemplo, gateways y observadores) y protocolos (por ejemplo, ArNS). Está disponible para entornos NodeJS y Web.
 
 ## Permaweb Cookbook ##
 
-[Permaweb Cookbook Official](https://cookbook.arweave.dev/) - The Permaweb Cookbook is a developer resource that provides the essential concepts and references for buiding applications on the Permaweb. Each concept and reference will focus on specific aspects of the Permaweb development ecosystem while providing additional details and usage examples
+[Permaweb Cookbook Oficial](https://cookbook.arweave.dev/) - El Permaweb Cookbook es un recurso para desarrolladores que proporciona los conceptos esenciales y referencias para construir aplicaciones en el Permaweb. Cada concepto y referencia se centra en aspectos específicos del ecosistema de desarrollo del Permaweb y ofrece detalles adicionales y ejemplos de uso.
 
-[Get a webpage on to the permaweb](https://cookbook.arweave.dev/getting-started/quick-starts/hw-code.html) - This guide walks you through a quick way to get a static HTML, CSS and JavaScript webpage on to the permaweb using a few lines of code and a command-line interface (CLI)
+[Coloca una página web en el permaweb](https://cookbook.arweave.dev/getting-started/quick-starts/hw-code.html) - Esta guía te muestra una forma rápida de subir una página web estática HTML, CSS y JavaScript al permaweb utilizando unas pocas líneas de código y una interfaz de línea de comandos (CLI).
 
-[Webpage uploade with Arweave.js and Irys](https://cookbook.arweave.dev/getting-started/quick-starts/hw-nodejs.html) - simple way to get data on to the permaweb using arweave-js and irys
+[Página web subida con Arweave.js e Irys](https://cookbook.arweave.dev/getting-started/quick-starts/hw-nodejs.html) - Forma sencilla de subir datos al permaweb usando arweave-js e Irys.
 
-[Querying Transactions - Irys & GraphQl](https://cookbook.arweave.dev/guides/posting-transactions/arweave-js.html) -Arweave native transactions can be posted directly to a node or gateway using the arweave-js package.
+[Consulta de Transacciones - Irys & GraphQl](https://cookbook.arweave.dev/guides/posting-transactions/arweave-js.html) - Las transacciones nativas de Arweave se pueden publicar directamente en un nodo o gateway utilizando el paquete arweave-js.
 
-[Fetching Transaction Data](https://cookbook.arweave.dev/guides/http-api.html) - A Transaction data caching service is offered by most gateways though a set of HTTP endpoints. Any HTTP client/package can be used to request transaction data from these endpoints. For example Axios or Fetch for JavaScript, Guzzle for PHP, etc.
+[Obtención de Datos de Transacciones](https://cookbook.arweave.dev/guides/http-api.html) - Un servicio de almacenamiento en caché de datos de transacciones es ofrecido por la mayoría de los gateways a través de un conjunto de endpoints HTTP. Se puede utilizar cualquier cliente/paquete HTTP para solicitar datos de transacciones desde estos endpoints, como Axios o Fetch para JavaScript, Guzzle para PHP, etc.
 
-[Posting Transactions using arweave-js](https://cookbook.arweave.dev/guides/posting-transactions/arweave-js.html) -Arweave native transactions can be posted directly to a node or gateway using the arweave-js package.
+[Publicación de Transacciones usando arweave-js](https://cookbook.arweave.dev/guides/posting-transactions/arweave-js.html) - Las transacciones nativas de Arweave se pueden publicar directamente en un nodo o gateway usando el paquete arweave-js.
 
-[Tags - Transaction Metadata](https://cookbook.arweave.dev/concepts/tags.html) - Arweave can be thought of as a permanent append-only hard drive where each entry on the drive is its own unique transaction. Transactions have a unique ID, signature, and owner address for the address that signed and paid for the transaction to be posted. 
+[Etiquetas - Metadatos de Transacciones](https://cookbook.arweave.dev/concepts/tags.html) - Arweave se puede considerar como un disco duro permanente de solo anexado donde cada entrada en el disco es una transacción única. Las transacciones tienen una ID única, firma y dirección del propietario que firmó y pagó por la transacción.
 
-[Path Manifests](https://cookbook.arweave.dev/concepts/manifests.html) - Path Manifests are a way to link multiple transactions together under a single base transaction ID and give them human readable file names. 
+[Manifiestos de Ruta](https://cookbook.arweave.dev/concepts/manifests.html) - Los Manifiestos de Ruta son una forma de vincular múltiples transacciones bajo una sola ID de transacción base y darles nombres de archivos legibles por humanos.
 
-## Recommended VS Code Extensions ##
+## Extensiones Recomendadas para VS Code ##
 
 [ES-Lint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) |
 [Editor-Config](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig) |
-[Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) | 
+[Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) |
 [ZipFS](https://marketplace.visualstudio.com/items?itemName=arcanis.vscode-zipfs) |
 [LUA\AO lua-language-server](https://marketplace.visualstudio.com/items?itemName=sumneko.lua)
 
-## Other Resources ##
+## Otros Recursos ##
 
-[Installing packages on ao processes using APM](https://mirror.xyz/0xCf673b87aFBed6091617331cC895376209d3b923/M4XoQFFCAKBH54bwIsCFT3Frxd575-plCg2o4H1Tujs) - APM is  package mananger for ao process
+[Instalación de paquetes en procesos AO usando APM](https://mirror.xyz/0xCf673b87aFBed6091617331cC895376209d3b923/M4XoQFFCAKBH54bwIsCFT3Frxd575-plCg2o4H1Tujs) - APM es un gestor de paquetes para procesos AO.
 
-[Building on Arweave: Tools for Token-Gated Access for Web3 Protocols](https://www.aoventures.io/blog/building-on-arweave-tools-for-token-gated-access-for-web3-protocols) - The concept of token-gated access revolves around restricting access to certain content such as source code to only those individuals/entities that hold a certain amount of $U tokens or AR tokens.
+[Construyendo en Arweave: Herramientas para Acceso con Token para Protocolos Web3](https://www.aoventures.io/blog/building-on-arweave-tools-for-token-gated-access-for-web3-protocols) - El concepto de acceso con token gira en torno a restringir el acceso a ciertos contenidos como el código fuente solo a aquellos individuos/entidades que posean una cierta cantidad de tokens $U o tokens AR.
 
-[Understanding Lua](https://cookbook_ao.g8way.io/references/lua.html) - Lua is a lightweight, high-level, multi-paradigm programming language designed primarily for embedded systems and clients. It's known for its efficiency, simplicity, and flexibility
+[Comprendiendo Lua](https://cookbook_ao.g8way.io/references/lua.html) - Lua es un lenguaje de programación ligero, de alto nivel y multi-paradigma diseñado principalmente para sistemas embebidos y clientes. Es conocido por su eficiencia, simplicidad y flexibilidad.
 
-[Lua Documentation](https://www.lua.org/docs.html) - The official definition of the Lua language is its reference manual, which describes the syntax and the semantics of Lua, the standard libraries, and the C API
+[Documentación de Lua](https://www.lua.org/docs.html) - La definición oficial del lenguaje Lua es su manual de referencia, que describe la sintaxis y la semántica de Lua, las bibliotecas estándar y la API de C.
 
-[AOP-5: WeaveDrive](https://hackmd.io/@ao-docs/H1JK_WezR) - Arweave is a permanent hard drive. AO, a decentralized supercomputer lives on top of it. This AOP adds virtual file system support to pass (large) data read from Arweave directly into AO processes efficiently.
+[AOP-5: WeaveDrive](https://hackmd.io/@ao-docs/H1JK_WezR) - Arweave es un disco duro permanente. AO, una supercomputadora descentralizada, vive sobre él. Este AOP añade soporte para un sistema de archivos virtual para pasar (grandes) datos leídos desde Arweave directamente a procesos AO de manera eficiente.
 
-[Learn X in Y minutes Where X = Lua](https://learnxinyminutes.com/docs/lua/) - Starter guide for lua beginnersS
+[Aprender X en Y minutos - Donde X = Lua](https://learnxinyminutes.com/docs/lua/) - Guía de inicio para principiantes en Lua.
 
-[ArweaveKit Docs](https://docs.arweavekit.com/wallets/introduction) - ArweaveKit aims to lower the barrier of onboarding and building on Arweave by creating a well documented one-stop library.
+[Documentación de ArweaveKit](https://docs.arweavekit.com/wallets/introduction) - ArweaveKit tiene como objetivo reducir la barrera de entrada y construcción en Arweave creando una biblioteca bien documentada y única.
 
-[Orbit Playground](https://playground.0rbit.co/) - Test 0rbit in your browser.
+[Orbit Playground](https://playground.0rbit.co/) - Prueba 0rbit en tu navegador.
 
-[Orbit Documentation](https://docs.0rbit.co/) - 0rbit Documentation.
+[Documentación de Orbit](https://docs.0rbit.co/) - Documentación de 0rbit.
 
-[Lorimer Jenkins AOV Workshop Repo](https://github.com/lorimerjenkins/aov-workshop)
+[Repositorio del Taller AOV de Lorimer Jenkins](https://github.com/lorimerjenkins/aov-workshop)
 
-[What is Irys](https://irys.xyz/what-is-irys)
+[¿Qué es Irys?](https://irys.xyz/what-is-irys)
 
-[ao Tokens](https://github.com/labscommunity/ao-tokens) - This library makes it easy to interact with tokens and operate with token quantities.
+[ao Tokens](https://github.com/labscommunity/ao-tokens) - Esta biblioteca facilita la interacción con tokens y la operación con cantidades de tokens.
 
-[Gamma Presentation](https://gamma.app/docs/Deploying-on-Arweave-Build-on-the-Decentralized-Web-xj30isp8bok5dep)
+[Presentación de Gamma](https://gamma.app/docs/Deploying-on-Arweave-Build-on-the-Decentralized-Web-xj30isp8bok5dep)
 
 ---
 
-These walkthroughs provide valuable insights and practical demonstrations that can help you take your Arweave development skills to the next level. Happy coding!
+Estos tutoriales proporcionan valiosas perspectivas y demostraciones prácticas que pueden ayudarte a llevar tus habilidades de desarrollo en Arweave al siguiente nivel. ¡Feliz codificación!
 
-At our event, we'll provide guidance, answer your questions, and offer hands-on assistance to ensure you can deploy your projects on Arweave smoothly. Join us to discover just how easy and powerful deploying on Arweave can be. See you there!
+En nuestro evento, proporcionaremos orientación, responderemos tus preguntas y ofreceremos asistencia práctica para garantizar que puedas desplegar tus proyectos en Arweave sin problemas. ¡Únete a nosotros para descubrir lo fácil y poderoso que puede ser desplegar en Arweave!
 
-This guide now includes information on both AoConnect and the Turbo SDK, providing developers with options for advanced functionalities when deploying on Arweave.
+Esta guía ahora incluye información tanto sobre AoConnect como sobre el SDK Turbo, proporcionando a los desarrolladores opciones para funcionalidades avanzadas al desplegar en Arweave.
 
 [![Join our Weavers Discord](https://arweave.net/osw8PJbK1J6clwOj41SHasp_IIdigSPYEuBc9AgSgRM)](https://discord.gg/gvZTg53zuJ)
