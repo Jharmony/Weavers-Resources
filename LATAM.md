@@ -3,10 +3,10 @@ Are you new to deploying on Arweave? Don't worry! We're here to show you just ho
 
 ## Not Familiar with Deploying on Arweave? No Problem! ##
 
-If you've never deployed on Arweave before, we've got your back. Join us at our Raid IV event, starting on August 14th, and we'll walk you through the process step by step. Whether you have questions or need hands-on assistance, we're here to help you deploy your projects on Arweave smoothly.
+If you've never deployed on Arweave before, we've got your back. Join us in [Discord](https://discord.gg/gvZTg53zuJ) for more resources and help from our amazing community. Whether you have questions or need hands-on assistance, we're here to help you deploy your projects on Arweave smoothly.
 
-## Raid IV Weavers Event: Unleashing Creativity on the Arweave Blockchain ##
-Welcome to the Raid IV Weavers event, a dynamic two-week virtual hackathon from August 14th to August 28th, tailored for the Arweave ecosystem. With $10,000 in bounties, this inclusive event encourages creativity and collaboration among developers and creatives alike. No application is needed—simply join our Weavers Discord, attend the Twitter Space kick-off on August 14th, and start building.
+## LATAM Weavers Event: Unleashing Creativity on the Arweave Blockchain in Colombia ##
+Welcome to the LATAM Weavers event, a dynamic 3-day in person hackathon from September 5th to September 7th, tailored for the Arweave ecosystem. With bounty prizes, this inclusive event encourages creativity and collaboration among developers. If you're a in Bogota, Colombia join our in person event and if you have questions join us in our [Discord](https://discord.gg/gvZTg53zuJ) community. 
 
 <!-- Access comprehensive resources in the WeaveWorld Documentation section to support your projects. We look forward to seeing your innovative contributions to the Arweave blockchain! -->
 <!-- 
@@ -38,14 +38,13 @@ For more detailed documentation and resources, check out the WeaveWorld document
 - [Chat Protocol](https://github.com/elliotsayes/WeaveWorld/blob/main/docs/Chat.md) 
  -->
 
+**Arfleet Resources**
+- TODO
 
-**Raid IV event details can be found at Weavers Official**
-- [Raid IV Dev & Creative Bounty Details](https://www.weaversofficial.com/raid-bounties).
-- [Reality Protocol](https://github.com/elliotsayes/Reality/tree/main/docs).
-- [Raid IV Luma Event Registration](https://lu.ma/64dh4gax).
-- [Raid IV Project Submission](https://www.weaversofficial.com/raid-bot).
+**Autonomous Finance**
+- TODO
 
-**Dev Bounty Resources**
+**Reality Protocol Resources**
 
 [Reality Repo](https://github.com/elliotsayes/Reality/tree/main/docs) - Main resource for building Worlds and Agents within the Reality protocol.
 
@@ -59,7 +58,7 @@ For more detailed documentation and resources, check out the WeaveWorld document
 
 <----------------------------------------------------------------------------->
 
-**Creative Bounty Resources**
+**Reality World Design Resources**
 
 [Reality Repo](https://github.com/elliotsayes/Reality/tree/main/docs) - Main resource for building Worlds and Agents within the Reality protocol.
 
@@ -75,7 +74,7 @@ For more detailed documentation and resources, check out the WeaveWorld document
 
 [Photopea](https://www.photopea.com/) - In-browser graphic editor
 
-**Reality Repos**
+**Helpful Reality Repos**
 
 [Blackjack Agent by Bobinstein](https://github.com/Bobinstein/blackjack-reality-agent) - A Blackjack play AO Reality Agent.
 
@@ -86,8 +85,6 @@ For more detailed documentation and resources, check out the WeaveWorld document
 [0rbit Super Llama Example Reality](https://reality-viewer.arweave.net/#/qIHUPtG6qTWe2DxH4lLw3_kU3or5dpYagWDHuxafP7k)
 
 [0rbit Reality World Repo](https://github.com/0rbit-co/reality-example)
-
-[Ethan's Reality World](https://reality-viewer.arweave.net/#/zW37ZRyoqWslFCWPhv00TTsLe9buUt9gw9JqCvPOpsk)
 
 [Ethan's Reality World](https://reality-viewer.arweave.net/#/zW37ZRyoqWslFCWPhv00TTsLe9buUt9gw9JqCvPOpsk)
 
