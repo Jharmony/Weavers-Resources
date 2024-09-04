@@ -1,3 +1,5 @@
+[![Join our Weavers Discord](https://arweave.net/DGzr6t52MPj7ubTnP-RnaQoMCh1dHJcvXToGeIsChxo)](https://discord.gg/gvZTg53zuJ)
+
 # Deploying on Arweave: Build on the Decentralized Web #
 Are you new to deploying on Arweave? Don't worry! We're here to show you just how straightforward it can be. Whether you're experienced with web development or just starting out, deploying on Arweave is as easy as pie. Here's what you need to know:
 
@@ -37,12 +39,34 @@ For more detailed documentation and resources, check out the WeaveWorld document
 - [Schema Protcol](https://github.com/elliotsayes/WeaveWorld/blob/main/docs/Schema.md)
 - [Chat Protocol](https://github.com/elliotsayes/WeaveWorld/blob/main/docs/Chat.md) 
  -->
+Bounties for LATAM hackathon in Colombia
+- Arfleet - ArFleet is a protocol developed for Arweave+AO that streamlines the purchase of time-limited data storage directly from permissionless peers, removing the need for third-party enforcement.
+  - Bounty Details: 
+- Autonomous Finance - a specialized entity devoted to exploring and advancing financial infrastructure within the AO network.
+   -- Bounty Details:
+- Reality Protocol - Reality Protocol enables the mapping of entities within a defined space. Each Reality sets the dimensional parameters (e.g 2 or 3), and every entity's position is captured by a numerical vector.
 
 **Arfleet Resources**
-- TODO
+- [Arfleet Genesis Presentation](https://youtu.be/qLgZ56XbIl0?t=1167)
+- [Arfleet Docs](https://docs.arfleet.io/docs/use-arfleet/arfleet-pass)
+   - [ArFleet Web](ttps://arfleet.io/web)
+   - [ArFleet-JS](ttps://github.com/aoacc/arfleet-js)
+   - [ArFleet-Erlang](https://github.com/aoacc/arfleet-erl)
+- [Arfleet Testnet/GitHub Repo](http://arfleet.io/)
 
-**Autonomous Finance**
-- TODO
+**[Autonomous Finance](https://www.npmjs.com/package/aoform)**
+- [Autonomous Fianance Landing Page](https://www.autonomous.finance/)
+-- AO Tooling:
+  [AOForm | VID](https://www.autonomous.finance/research/en-US/aoform)
+  - [AOForm Github Repo](https://github.com/Autonomous-Finance/aoform)
+  - [AOForm NPM package](https://www.npmjs.com/package/aoform)
+  [Testing  VID](https://www.autonomous.finance/research/en-US/testing)
+  - [AO Process Testing](https://github.com/Autonomous-Finance/ao-process-testing)
+  - [AO Process Testing | Demo](https://github.com/Autonomous-Finance/demos/tree/main/process-testing-demo)
+-- AO Package:
+  [Subscribable](https://www.autonomous.finance/research/en-US/subscribable)
+  [Ownable](https://github.com/Autonomous-Finance/aos-packages/tree/main/packages/ownable)
+  [Ownable-multi](https://github.com/Autonomous-Finance/aos-packages/tree/main/packages/ownable-multi)
 
 **Reality Protocol Resources**
 
@@ -447,4 +471,4 @@ At our event, we'll provide guidance, answer your questions, and offer hands-on 
 
 This guide now includes information on both AoConnect and the Turbo SDK, providing developers with options for advanced functionalities when deploying on Arweave.
 
-[![protocol.land](https://arweave.net/eZp8gOeR8Yl_cyH9jJToaCrt2He1PHr0pR4o-mHbEcY)](https://protocol.land/#/repository/14428ded-7107-4d78-ae81-7ff37973520e)
+[![Join our Weavers Discord](https://arweave.net/DGzr6t52MPj7ubTnP-RnaQoMCh1dHJcvXToGeIsChxo)](https://discord.gg/gvZTg53zuJ)
