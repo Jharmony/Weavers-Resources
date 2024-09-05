@@ -13,6 +13,75 @@ Si nunca has implementado en Arweave antes, estamos aquí para ayudarte. Únete 
 Bienvenido al evento LATAM Weavers, un dinámico hackathon presencial de 3 días del 5 al 7 de septiembre, diseñado para el ecosistema de Arweave. Con premios en recompensas, este evento inclusivo fomenta la creatividad y la colaboración entre los desarrolladores. Si estás en Bogotá, Colombia, únete a nuestro evento presencial y si tienes preguntas, únete a nuestra comunidad en [Discord](https://discord.gg/gvZTg53zuJ).
 
 Recompensas para el hackathon LATAM en Colombia:
+## Recompensas para el hackathon de LATAM en Colombia ##
+
+**Requisitos y reglas para las recompensas:**
+
+Para que tu envío sea considerado para los premios, tu proyecto debe cumplir con los siguientes requisitos y respetar las siguientes reglas.
+
+**Reglas:**
+
+- Todos los proyectos enviados para las demás recompensas serán automáticamente ingresados para el premio mayor.
+- Puedes trabajar en equipos de hasta 3 hackers, quienes deben estar registrados en el hackathon.
+- Solo puedes enviar una entrada para esta recompensa de desarrolladores, pero puedes participar en otras recompensas.
+- Todo lo que envíes debe ser trabajo original, creado durante el Evento Hackathon de Weavers (5 de septiembre - 7 de septiembre de 2024). No aceptaremos enlaces a contenido previamente creado, incluso si eres el autor.
+- La mayor parte de tu proyecto debe estar alojada en Arweave.
+- Puedes utilizar bibliotecas de código abierto, IA y otros recursos de uso justo para ayudarte en el desarrollo y diseño del mundo.
+- Todos los participantes del evento deben seguir nuestro **Código de Conducta**, y al participar en un evento de Weavers, también aceptas cumplir con nuestros **Términos y Condiciones**.
+
+**Requisitos:**
+
+- Todos los equipos deben proporcionar un enlace a Github o protocol.land para sus proyectos.
+- Todos los equipos deben presentarse para la evaluación en vivo el 7 de septiembre.
+
+**Proceso de envío:**
+
+Una vez que hayas cumplido con los requisitos (listados anteriormente), envía tu proyecto aquí:
+- ArFleet - ArFleet es un protocolo desarrollado para Arweave+AO que optimiza la compra de almacenamiento de datos limitado por tiempo directamente de pares sin permisos, eliminando la necesidad de terceros para hacer cumplir los términos.
+  - Detalles de la recompensa:
+- Autonomous Finance - una entidad especializada en explorar y mejorar la infraestructura financiera dentro de la red AO.
+   - Detalles de la recompensa:
+- Reality Protocol - Reality Protocol permite el mapeo de entidades dentro de un espacio definido. Cada Reality establece los parámetros dimensionales (por ejemplo, 2 o 3), y la posición de cada entidad se captura mediante un vector numérico.
+
+## Recompensas ##
+
+### **Gran Premio: $2000 USD (mejor proyecto general)** ###
+
+Mejor proyecto general, considerando la originalidad de la idea, la implementación de Arweave/AO en el proyecto, la calidad de las características (menos características funcionales > más características no funcionales), y la utilidad del producto.
+
+## **Recompensa #1 - Mejor Uso de [ArFleet](https://docs.arfleet.io/docs/home) $1500 USD**
+
+**¿Qué es ArFleet?**
+
+ArFleet es un protocolo construido sobre y para Arweave+AO, diseñado para facilitar la compra de almacenamiento de datos limitado por tiempo de pares sin permisos, eliminando la necesidad de un tercero para la ejecución.
+
+[Arweave](https://arweave.org/) proporciona almacenamiento permanente para el permaweb.
+
+[ArFleet](https://arfleet.io/) complementa esto al ofrecer un mecanismo para almacenamiento temporal y bajo demanda. Esta combinación permite a los usuarios elegir entre preservación a largo plazo y opciones flexibles de almacenamiento temporal, mejorando la utilidad general de la gestión descentralizada de datos.
+
+**Descripción de la recompensa:**
+
+Debido a que ArFleet es nuevo, aún queda mucho por desarrollar y muchas ideas por explorar. Para esta recompensa, queremos ver el mejor uso general de ArFleet en cualquier tipo de proyecto, aplicación o idea. Esto significa crear una idea que aproveche al máximo ArFleet e integrarlo de manera significativa.
+
+## **Recompensa #2 - Mejor Uso de Autonomous Finance $1000**
+
+**¿Qué es Autonomous Finance?**
+
+Autonomous Finance aprovecha la escalabilidad horizontal, contratos inteligentes reactivos y sistemas avanzados de mensajería en AO para crear plataformas financieras robustas. Esta infraestructura está diseñada para soportar las grandes demandas de las finanzas modernas, asegurando confiabilidad, seguridad y eficiencia en entornos de transacciones de alto valor.
+
+**Descripción de la recompensa:**
+
+Para esta recompensa, queremos ver el mejor uso general de Autonomous Finance en cualquier tipo de proyecto, aplicación o idea. Esto debe involucrar aprovechar las capacidades proporcionadas por la Infraestructura Financiera Central de Autonomous Finance, agentes autónomos y ContentFi.
+
+## **Recompensa #3 - Mejor Uso de Reality Protocol $500**
+
+**¿Qué es Reality Protocol?**
+
+Reality Protocol permite la representación de entidades dentro de una dimensión espacial definida, como mundos en 2D, con la posición de cada entidad especificada por un vector numérico. El protocolo consta de gestores que manejan definiciones tanto para el mundo como para sus entidades.
+
+**Descripción de la recompensa:**
+
+Para esta recompensa, buscamos proyectos que utilicen creativamente el Reality Protocol, que permite la creación de mundos 2D operando dentro de un proceso AO. Estos mundos pueden interactuar entre sí, permitiendo a los desarrolladores construir entornos virtuales persistentes capaces de alojar diversas actividades dentro del mundo. El protocolo ofrece flexibilidad para personalización, desde modificar diseños de mapas hasta integrar música de fondo o crear NPCs. Ya sea que estés construyendo juegos inmersivos, arte interactivo o espacios virtuales descentralizados, Reality ofrece un campo de juego único para la exploración.
 
 - **Arfleet** - ArFleet es un protocolo desarrollado para Arweave+AO que agiliza la compra de almacenamiento de datos con tiempo limitado directamente de pares sin permisos, eliminando la necesidad de aplicación por terceros.
   - Detalles de la Recompensa: Premio $2,000
