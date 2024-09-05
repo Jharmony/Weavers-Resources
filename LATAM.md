@@ -15,10 +15,11 @@ Bienvenido al evento LATAM Weavers, un dinámico hackathon presencial de 3 días
 Recompensas para el hackathon LATAM en Colombia:
 
 - **Arfleet** - ArFleet es un protocolo desarrollado para Arweave+AO que agiliza la compra de almacenamiento de datos con tiempo limitado directamente de pares sin permisos, eliminando la necesidad de aplicación por terceros.
-  - Detalles de la Recompensa: 
+  - Detalles de la Recompensa: Premio $2,000
 - **Autonomous Finance** - Una entidad especializada dedicada a explorar y avanzar en la infraestructura financiera dentro de la red AO.
-  - Detalles de la Recompensa:
+  - Detalles de la Recompensa:Premio $1,500
 - **Reality Protocol** - Reality Protocol permite mapear entidades dentro de un espacio definido. Cada Reality establece los parámetros dimensionales (ej. 2 o 3), y la posición de cada entidad se captura mediante un vector numérico.
+   - Detalles de la Recompensa:Premio $1,000
 
 **Recursos de Arfleet**
 
@@ -45,7 +46,10 @@ Recompensas para el hackathon LATAM en Colombia:
   - [Ownable-multi](https://github.com/Autonomous-Finance/aos-packages/tree/main/packages/ownable-multi)
 
 **Recursos del Protocolo Reality**
-
+Tutoriales para Reality Protocol
+- [Introduction to Reality Protocol | Arweave & AO Workshop](https://youtu.be/Aqu1r4XsEjg?si=XnHOU9COj_dmK2V5)
+- [Reality Protocol: Building Virtual Agents and Worlds | FULL WORKSHOP](https://youtu.be/s9dpb1ogz_Y?si=4uAByHoLHVFl9wNT)
+Documentación
 - [Repositorio Reality](https://github.com/elliotsayes/Reality/tree/main/docs) - Recurso principal para construir Mundos y Agentes dentro del protocolo Reality.
 - [Nodejs v20^](https://nodejs.org/en/download/package-manager) - Dependencia requerida para AO.
 - [Inicio Rápido de AO](https://cookbook_ao.g8way.io/welcome/getting-started.html) - Documentación principal de AO que te guía a través del proceso de instalación (ejecuta `npm i -g https://get_ao.g8way.io`)
