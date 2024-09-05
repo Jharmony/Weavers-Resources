@@ -84,12 +84,9 @@ Reality Protocol permite la representación de entidades dentro de una dimensió
 Para esta recompensa, buscamos proyectos que utilicen creativamente el Reality Protocol, que permite la creación de mundos 2D operando dentro de un proceso AO. Estos mundos pueden interactuar entre sí, permitiendo a los desarrolladores construir entornos virtuales persistentes capaces de alojar diversas actividades dentro del mundo. El protocolo ofrece flexibilidad para personalización, desde modificar diseños de mapas hasta integrar música de fondo o crear NPCs. Ya sea que estés construyendo juegos inmersivos, arte interactivo o espacios virtuales descentralizados, Reality ofrece un campo de juego único para la exploración.
 
 - **Arfleet** - ArFleet es un protocolo desarrollado para Arweave+AO que agiliza la compra de almacenamiento de datos con tiempo limitado directamente de pares sin permisos, eliminando la necesidad de aplicación por terceros.
-  - Detalles de la Recompensa: Premio $2,000
 - **Autonomous Finance** - Una entidad especializada dedicada a explorar y avanzar en la infraestructura financiera dentro de la red AO.
-  - Detalles de la Recompensa:Premio $1,500
 - **Reality Protocol** - Reality Protocol permite mapear entidades dentro de un espacio definido. Cada Reality establece los parámetros dimensionales (ej. 2 o 3), y la posición de cada entidad se captura mediante un vector numérico.
-   - Detalles de la Recompensa:Premio $1,000
-
+- 
 **Recursos de Arfleet**
 
 - [Presentación Genesis de Arfleet](https://youtu.be/qLgZ56XbIl0?t=1167)
