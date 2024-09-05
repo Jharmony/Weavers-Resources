@@ -1,5 +1,79 @@
 [![Join our Weavers Discord](https://arweave.net/osw8PJbK1J6clwOj41SHasp_IIdigSPYEuBc9AgSgRM)](https://discord.gg/gvZTg53zuJ)
 
+# Implementación en Arweave: Construye en la Web Descentralizada
+
+¿Eres nuevo en la implementación en Arweave? ¡No te preocupes! Estamos aquí para mostrarte lo sencillo que puede ser. Ya seas un desarrollador web experimentado o estés comenzando, implementar en Arweave es pan comido. Aquí tienes lo que necesitas saber:
+
+## ¿No estás familiarizado con la implementación en Arweave? ¡No hay problema!
+
+Si nunca has implementado en Arweave antes, estamos aquí para ayudarte. Únete a nosotros en [Discord](https://discord.gg/gvZTg53zuJ) para obtener más recursos y ayuda de nuestra increíble comunidad. Ya sea que tengas preguntas o necesites asistencia práctica, estamos aquí para ayudarte a implementar tus proyectos en Arweave sin problemas.
+
+## Evento LATAM Weavers: Desatando la Creatividad en la Blockchain de Arweave en Colombia
+
+Bienvenido al evento LATAM Weavers, un dinámico hackathon presencial de 3 días del 5 al 7 de septiembre, diseñado para el ecosistema de Arweave. Con premios en recompensas, este evento inclusivo fomenta la creatividad y la colaboración entre los desarrolladores. Si estás en Bogotá, Colombia, únete a nuestro evento presencial y si tienes preguntas, únete a nuestra comunidad en [Discord](https://discord.gg/gvZTg53zuJ).
+
+Recompensas para el hackathon LATAM en Colombia:
+
+- **Arfleet** - ArFleet es un protocolo desarrollado para Arweave+AO que agiliza la compra de almacenamiento de datos con tiempo limitado directamente de pares sin permisos, eliminando la necesidad de aplicación por terceros.
+  - Detalles de la Recompensa: 
+- **Autonomous Finance** - Una entidad especializada dedicada a explorar y avanzar en la infraestructura financiera dentro de la red AO.
+  - Detalles de la Recompensa:
+- **Reality Protocol** - Reality Protocol permite mapear entidades dentro de un espacio definido. Cada Reality establece los parámetros dimensionales (ej. 2 o 3), y la posición de cada entidad se captura mediante un vector numérico.
+
+**Recursos de Arfleet**
+
+- [Presentación Genesis de Arfleet](https://youtu.be/qLgZ56XbIl0?t=1167)
+- [Documentos de Arfleet](https://docs.arfleet.io/docs/use-arfleet/arfleet-pass)
+  - [Web de ArFleet](https://arfleet.io/web)
+  - [ArFleet-JS](https://github.com/aoacc/arfleet-js)
+  - [ArFleet-Erlang](https://github.com/aoacc/arfleet-erl)
+- [Testnet de Arfleet/Repositorio GitHub](http://arfleet.io/)
+
+**Autonomous Finance**
+
+- [Página de Inicio de Autonomous Finance](https://www.autonomous.finance/)
+- Herramientas AO:
+  - [AOForm | VID](https://www.autonomous.finance/research/en-US/aoform)
+  - [Repositorio GitHub de AOForm](https://github.com/Autonomous-Finance/aoform)
+  - [Paquete NPM de AOForm](https://www.npmjs.com/package/aoform)
+  - [VID de Pruebas](https://www.autonomous.finance/research/en-US/testing)
+  - [Pruebas de Procesos AO](https://github.com/Autonomous-Finance/ao-process-testing)
+  - [Demostración de Pruebas de Procesos AO](https://github.com/Autonomous-Finance/demos/tree/main/process-testing-demo)
+- Paquete AO:
+  - [Subscribable](https://www.autonomous.finance/research/en-US/subscribable)
+  - [Ownable](https://github.com/Autonomous-Finance/aos-packages/tree/main/packages/ownable)
+  - [Ownable-multi](https://github.com/Autonomous-Finance/aos-packages/tree/main/packages/ownable-multi)
+
+**Recursos del Protocolo Reality**
+
+- [Repositorio Reality](https://github.com/elliotsayes/Reality/tree/main/docs) - Recurso principal para construir Mundos y Agentes dentro del protocolo Reality.
+- [Nodejs v20^](https://nodejs.org/en/download/package-manager) - Dependencia requerida para AO.
+- [Inicio Rápido de AO](https://cookbook_ao.g8way.io/welcome/getting-started.html) - Documentación principal de AO que te guía a través del proceso de instalación (ejecuta `npm i -g https://get_ao.g8way.io`)
+- [Guía del Mundo Reality](https://github.com/elliotsayes/Reality/blob/main/docs/WorldGuide.md) - La guía oficial para crear tu propio Mundo con el Protocolo Reality.
+- [Guía del Agente Reality](https://github.com/elliotsayes/Reality/blob/main/docs/AgentGuide.md) - La guía oficial para crear tu propio Agente con el Protocolo Reality.
+
+**Recursos de Diseño de Mundos Reality**
+
+- [Repositorio Reality](https://github.com/elliotsayes/Reality/tree/main/docs) - Recurso principal para construir Mundos y Agentes dentro del protocolo Reality.
+- [Sprite de Llama de Muestra](https://2fqwgh6podgk6fyabvncz7gbarcrbvxcvfa66twp7jr7ghkwy2lq.aoweave.tech/0WFjH89wzK8XAA1aLPzBBEUQ1uKpQe9Oz_pj8x1Wxpc) - Un sprite de muestra que se puede editar y reutilizar.
+- [Tiled](https://github.com/0rbit-co/reality-example) - Editor de niveles 2D que te ayuda a desarrollar el contenido de tu juego.
+- [Aseprite](https://www.aseprite.org/) - Para editar sprites.
+- [Photoshop](https://www.adobe.com/products/photoshop.html?gclid=CjwKCAjw8fu1BhBsEiwAwDrsjLOCZZxfl65pSfa2C56eMYBbzf2sqR8lMllP3hxmrB3YAFeyzeMECxoCSRoQAvD_BwE&sdid=88X75SKR&mv=search&ef_id=CjwKCAjw8fu1BhBsEiwAwDrsjLOCZZxfl65pSfa2C56eMYBbzf2sqR8lMllP3hxmrB3YAFeyzeMECxoCSRoQAvD_BwE:G:s&s_kwcid=AL!3085!3!448291653724!e!!g!!photoshop%20download!1712238436!67643555220&gad_source=1) - Editor gráfico de pago.
+- [Gimp](https://www.gimp.org/downloads/) - Editor gráfico gratuito.
+- [Photopea](https://www.photopea.com/) - Editor gráfico en el navegador.
+
+**Repositorios Útiles de Reality**
+
+- [Agente Blackjack de Bobinstein](https://github.com/Bobinstein/blackjack-reality-agent) - Un Agente de Blackjack para AO Reality.
+- [Repositorio de Mundo Reality de 0rbit](https://github.com/0rbit-co/reality-example) - Un mundo inmersivo de AO Reality por el equipo de 0rbit.
+
+**Mundos Reality**
+
+- [Ejemplo de Reality Super Llama de 0rbit](https://reality-viewer.arweave.net/#/qIHUPtG6qTWe2DxH4lLw3_kU3or5dpYagWDHuxafP7k)
+- [Repositorio de Mundo Reality de 0rbit](https://github.com/0rbit-co/reality-example)
+- [Mundo Reality de Ethan](https://reality-viewer.arweave.net/#/zW37ZRyoqWslFCWPhv00TTsLe9buUt9gw9JqCvPOpsk)
+- [Mundo Reality de Jason](https://reality-viewer.arweave.net/#/vj_tO0EwnNjqF1cIFLBNoGhlFxG9CyJkA5KJNqP32YE)
+
 ## Guía Rápida con NextJS / ArDrive Turbo ##
 
 1. **Ejecuta create-next-app** Comienza creando una aplicación de Next.js escalada para trabajar desde ella.
