@@ -39,12 +39,74 @@ For more detailed documentation and resources, check out the WeaveWorld document
 - [Schema Protcol](https://github.com/elliotsayes/WeaveWorld/blob/main/docs/Schema.md)
 - [Chat Protocol](https://github.com/elliotsayes/WeaveWorld/blob/main/docs/Chat.md) 
  -->
-Bounties for LATAM hackathon in Colombia
+##Bounties for LATAM hackathon in Colombia##
+**Bounty Requirements & Rules:**
+
+In order to be considered for prizing, your submission must meet the following requirements, and adhere to the following rules.
+
+**Rules:**
+
+- All projects submitted for the other bounties are automatically entered for the grand prize bounty.
+- You may work in teams of up to 3 Hackers, who must all be registered for the hackathon.
+- You may only submit one entry for this Developer Bounty, but you may submit entries for other bounties as well.
+- Everything you submit must be your original work, created during the Weavers Hackathon Event (September 5th - September 7th 2024). We will not accept links to previously created content, even if you are the author of the work.
+- The majority of your project must be hosted on Arweave.
+- You may use open-source libraries, AI, and other fair use assets to assist in development and world design.
+- All event participants must adhere to our **Code of Conduct**, by participating in a Weavers event you also agree to abide by our **Terms and Conditions**.
+
+**Requirements:**
+
+- All teams must supply a Github or protocol.land link for their projects.
+- All teams must present themselves for live judging on September 7th
+
+**Submission Process:**
+
+Once you have met the requirements (listed above), submit your project here:
 - Arfleet - ArFleet is a protocol developed for Arweave+AO that streamlines the purchase of time-limited data storage directly from permissionless peers, removing the need for third-party enforcement.
   - Bounty Details: 
 - Autonomous Finance - a specialized entity devoted to exploring and advancing financial infrastructure within the AO network.
    -- Bounty Details:
 - Reality Protocol - Reality Protocol enables the mapping of entities within a defined space. Each Reality sets the dimensional parameters (e.g 2 or 3), and every entity's position is captured by a numerical vector.
+
+## Bounties ##
+
+### **Grand Prize: $2000 USD (overall best project)** ###
+
+Best overall project, considering the originality of the idea, the implementation of Arweave/AO in the project, the quality of the features (fewer working features > more non functional features), and the usefulness of the product.
+
+## **Bounty #1 - Best Use of [ArFleet](https://docs.arfleet.io/docs/home) $1500 USD**
+
+**What is ArFleet?**
+
+ArFleet is a protocol built on and for Arweave+ao designed to facilitate the purchase of time-limited data storage from permissionless peers, eliminating the requirement of a third-party for enforcement.
+
+[Arweave](https://arweave.org/) provides permanent storage for the permaweb.
+
+[ArFleet](https://arfleet.io/) complements this by providing a mechanism for temporary, on-demand data storage. This combination allows users to choose between long-term preservation and flexible, time-limited storage options, enhancing the overall utility of decentralized data management.
+
+**Bounty Description:**
+
+Due to ArFleet being only weeks old, there is still much to be worked on, and plenty of ideas that haven’t been explored yet. For this Bounty, we want to see the best overall use of ArFleet in any type of project, app, or idea. This means creating an idea that takes full advantage of ArFleet, and integrates it in a meaningful way.
+
+## **Bounty #2 - Best Use of Autonomous Finance $1000**
+
+**What is Autonomous Finance?**
+
+Autonomous Finance leverages horizontal scalability, reactive smart contracts, and advanced messaging systems on ao to create robust financial platforms. This infrastructure is designed to support the vast demands of modern finance, ensuring reliability, security, and efficiency in high-value transaction environments.
+
+**Bounty Description:**
+
+For this Bounty, we want to see the best overall use of Autonomous Finance in any type of project, app, or idea. This should involve taking advantage of the capabilities provided by the Autonomous Finance Core Financial Infrastructure, autonomous agents, and ContentFi.
+
+## **Bounty #3 - Best Use of Reality Protocol $500**
+
+**What is Reality Protocol?**
+
+Reality Protocol enables the representation of Entities within a defined spatial dimension, such as 2D worlds, with each Entity's position specified by a vector of numbers. The protocol consists of Handlers that manage Definitions for both the World and its Entities.
+
+**Bounty Description:**
+
+For this Bounty, we are looking for projects that creatively utilize the Reality Protocol, which enables the creation of 2D worlds running within an AO process. These worlds can interact with each other, allowing developers to build virtual environments that are persistent and capable of hosting various in-world activities. The protocol offers flexibility for customization, from modifying map layouts to integrating background music or creating NPCs. Whether you’re building immersive games, interactive art, or even decentralized virtual spaces, Reality provides a unique playground for exploration.
 
 **Arfleet Resources**
 - [Arfleet Genesis Presentation](https://youtu.be/qLgZ56XbIl0?t=1167)
