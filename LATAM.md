@@ -1,5 +1,42 @@
 [![Join our Weavers Discord](https://arweave.net/osw8PJbK1J6clwOj41SHasp_IIdigSPYEuBc9AgSgRM)](https://discord.gg/gvZTg53zuJ)
 
+> **📢 Anuncio de Extensión del Hackathon**
+>
+> Debido a la reciente huelga en Bogotá y a los retrasos que ha causado en la participación en persona, Weavers y Luminarium han decidido **extender el período del hackathon** para incluir el próximo hackathon de Luminarium en Medellín. Esta extensión proporciona tiempo adicional para que todos los hackers completen sus proyectos y permite a los participantes de Bogotá unirse de manera remota durante la próxima semana.
+>
+> ## Lo Que Necesitas Saber:
+>
+> - **Tiempo Adicional**: Todos los hackers tendrán tiempo extra para finalizar sus proyectos.
+> - **Participación Remota**: Los participantes de Bogotá y Medellín hackearán de forma remota durante la próxima semana.
+>
+> ## Evaluación y Envíos
+>
+> Para acomodar este cambio, realizaremos la **evaluación de forma asincrónica**. Cada equipo de hackers deberá enviar un **video de demostración de 4-5 minutos** de su proyecto. El video debe cubrir:
+>
+> - Las características de tu proyecto
+> - Las razones por las que lo construiste
+> - Cómo utilizaste Arweave en tu desarrollo
+>
+> **Idiomas**: Los videos pueden ser en inglés o español.
+>
+> Una vez que termines tu proyecto, por favor completa nuestro [formulario de envío de proyectos](#) (inserta el enlace aquí).
+>
+> ## Nuevas Fechas Límite
+>
+> - **Fecha Límite de Envío**: 11 de septiembre a las 23:59 COT
+> - **Fecha de Evaluación**: 12 de septiembre
+> - **Anuncio de Ganadores**: 12 de septiembre a las 17:00 COT
+>
+> ## Preguntas
+>
+> Si tienes alguna pregunta sobre el hackathon, la evaluación o las recompensas, por favor contacta al equipo de Weavers a través de nuestro [Discord](#) (inserta el enlace aquí) o envíanos un correo a [ryan@arweave.org](mailto:ryan@arweave.org).
+>
+> Gracias por tu comprensión y flexibilidad. ¡Esperamos ver tus increíbles proyectos!
+>
+> ---
+>
+> *Equipo de Weavers*
+
 # Implementación en Arweave: Construye en la Web Descentralizada
 
 ¿Eres nuevo en la implementación en Arweave? ¡No te preocupes! Estamos aquí para mostrarte lo sencillo que puede ser. Ya seas un desarrollador web experimentado o estés comenzando, implementar en Arweave es pan comido. Aquí tienes lo que necesitas saber:
