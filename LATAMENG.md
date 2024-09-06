@@ -19,7 +19,7 @@
 >
 > **Languages**: Videos can be in either English or Spanish.
 >
-> Once your project is complete, please fill out our [project submission form](#) (insert link here).
+> Once your project is complete, please fill out our [project submission form](https://y2kodq8uua3.typeform.com/ColombiaSubmit).
 >
 > ## New Deadlines
 >
@@ -29,7 +29,7 @@
 >
 > ## Questions?
 >
-> If you have any questions regarding the hackathon, judging, or bounties, please reach out to the Weavers team via our [Discord](#) (insert link here) or email us at [ryan@arweave.org](mailto:ryan@arweave.org).
+> If you have any questions regarding the hackathon, judging, or bounties, please reach out to the Weavers team via our [Discord](https://discord.gg/weavers) or email us at [ryan@arweave.org](mailto:ryan@arweave.org).
 >
 > Thank you for your understanding and flexibility. We look forward to your amazing projects!
 >
