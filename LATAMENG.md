@@ -1,5 +1,42 @@
 [![Join our Weavers Discord](https://arweave.net/osw8PJbK1J6clwOj41SHasp_IIdigSPYEuBc9AgSgRM)](https://discord.gg/gvZTg53zuJ)
 
+> **📢 Hackathon Extension Announcement**
+>
+> Due to the recent strike in Bogotá and the resulting delays affecting in-person participation, Weavers and Luminarium have decided to **extend the hackathon period** to include the upcoming Luminarium Medellin hackathon. This extension provides additional time for all hackers to complete their projects and allows Bogotá participants to join remotely over the next week.
+>
+> ## What You Need to Know:
+>
+> - **Additional Time**: All hackers will have extra time to finalize their projects.
+> - **Remote Participation**: Bogotá and Medellin hackathon participants will hack remotely for the next week.
+>
+> ## Judging and Submissions
+>
+> To accommodate this change, we will conduct **asynchronous judging**. Each hacker team is required to submit a **4-5 minute video demonstration** of their project. The video should cover:
+>
+> - The features of your project
+> - Your reasons for building it
+> - How you utilized Arweave in your development
+>
+> **Languages**: Videos can be in either English or Spanish.
+>
+> Once your project is complete, please fill out our [project submission form](#) (insert link here).
+>
+> ## New Deadlines
+>
+> - **Submission Deadline**: September 11th at 23:59 COT
+> - **Judging Date**: September 12th
+> - **Winners Announcement**: September 12th at 17:00 COT
+>
+> ## Questions?
+>
+> If you have any questions regarding the hackathon, judging, or bounties, please reach out to the Weavers team via our [Discord](#) (insert link here) or email us at [ryan@arweave.org](mailto:ryan@arweave.org).
+>
+> Thank you for your understanding and flexibility. We look forward to your amazing projects!
+>
+> ---
+>
+> *Weavers Team*
+
 # Deploying on Arweave: Build on the Decentralized Web #
 Are you new to deploying on Arweave? Don't worry! We're here to show you just how straightforward it can be. Whether you're experienced with web development or just starting out, deploying on Arweave is as easy as pie. Here's what you need to know:
 
@@ -8,7 +45,7 @@ Are you new to deploying on Arweave? Don't worry! We're here to show you just ho
 If you've never deployed on Arweave before, we've got your back. Join us in [Discord](https://discord.gg/gvZTg53zuJ) for more resources and help from our amazing community. Whether you have questions or need hands-on assistance, we're here to help you deploy your projects on Arweave smoothly.
 
 ## LATAM Weavers Event: Unleashing Creativity on the Arweave Blockchain in Colombia ##
-Welcome to the LATAM Weavers event, a dynamic 3-day in person hackathon from September 5th to September 7th, tailored for the Arweave ecosystem. With bounty prizes, this inclusive event encourages creativity and collaboration among developers. If you're a in Bogota, Colombia join our in person event and if you have questions join us in our [Discord](https://discord.gg/gvZTg53zuJ) community. 
+Welcome to the LATAM Weavers event, a dynamic 3-day in person hackathon from September 5th to September 11th, tailored for the Arweave ecosystem. With bounty prizes, this inclusive event encourages creativity and collaboration among developers. If you're a in Colombia join our in person event and if you have questions join us in our [Discord](https://discord.gg/gvZTg53zuJ) community. 
 
 <!-- Access comprehensive resources in the WeaveWorld Documentation section to support your projects. We look forward to seeing your innovative contributions to the Arweave blockchain! -->
 <!-- 
@@ -57,16 +94,11 @@ In order to be considered for prizing, your submission must meet the following r
 **Requirements:**
 
 - All teams must supply a Github or protocol.land link for their projects.
-- All teams must present themselves for live judging on September 7th
+- All teams must present themselves for live judging on September 11th at 23:59 COT
 
 **Submission Process:**
 
-Once you have met the requirements (listed above), submit your project here:
-- Arfleet - ArFleet is a protocol developed for Arweave+AO that streamlines the purchase of time-limited data storage directly from permissionless peers, removing the need for third-party enforcement.
-  - Bounty Details: 
-- Autonomous Finance - a specialized entity devoted to exploring and advancing financial infrastructure within the AO network.
-   -- Bounty Details:
-- Reality Protocol - Reality Protocol enables the mapping of entities within a defined space. Each Reality sets the dimensional parameters (e.g 2 or 3), and every entity's position is captured by a numerical vector.
+Once you have met the requirements (listed above), submit your project here: [https://y2kodq8uua3.typeform.com/ColombiaSubmit](https://y2kodq8uua3.typeform.com/ColombiaSubmit)
 
 ## Bounties ##
 
