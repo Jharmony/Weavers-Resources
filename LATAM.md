@@ -43,13 +43,13 @@ Una vez que hayas cumplido con los requisitos (listados anteriormente), envía t
    - Detalles de la recompensa:
 - Reality Protocol - Reality Protocol permite el mapeo de entidades dentro de un espacio definido. Cada Reality establece los parámetros dimensionales (por ejemplo, 2 o 3), y la posición de cada entidad se captura mediante un vector numérico.
 
-## Recompensas ##
+# Recompensas #
 
-### **Gran Premio: $2000 USD (mejor proyecto general)** ###
+## **Gran Premio: $2,000 USD (mejor proyecto general)** ##
 
 Mejor proyecto general, considerando la originalidad de la idea, la implementación de Arweave/AO en el proyecto, la calidad de las características (menos características funcionales > más características no funcionales), y la utilidad del producto.
 
-## **Recompensa #1 - Mejor Uso de [ArFleet](https://docs.arfleet.io/docs/home) $1500 USD**
+## **Recompensa #1 - Mejor Uso de [ArFleet](https://docs.arfleet.io/docs/home) $1,500 USD ##
 
 **¿Qué es ArFleet?**
 
@@ -63,7 +63,7 @@ ArFleet es un protocolo construido sobre y para Arweave+AO, diseñado para facil
 
 Debido a que ArFleet es nuevo, aún queda mucho por desarrollar y muchas ideas por explorar. Para esta recompensa, queremos ver el mejor uso general de ArFleet en cualquier tipo de proyecto, aplicación o idea. Esto significa crear una idea que aproveche al máximo ArFleet e integrarlo de manera significativa.
 
-## **Recompensa #2 - Mejor Uso de Autonomous Finance $1000**
+## **Recompensa #2 - Mejor Uso de Autonomous Finance $1,000 ##
 
 **¿Qué es Autonomous Finance?**
 
@@ -73,7 +73,7 @@ Autonomous Finance aprovecha la escalabilidad horizontal, contratos inteligentes
 
 Para esta recompensa, queremos ver el mejor uso general de Autonomous Finance en cualquier tipo de proyecto, aplicación o idea. Esto debe involucrar aprovechar las capacidades proporcionadas por la Infraestructura Financiera Central de Autonomous Finance, agentes autónomos y ContentFi.
 
-## **Recompensa #3 - Mejor Uso de Reality Protocol $500**
+## **Recompensa #3 - Mejor Uso de Reality Protocol $500 ##
 
 **¿Qué es Reality Protocol?**
 
@@ -86,7 +86,7 @@ Para esta recompensa, buscamos proyectos que utilicen creativamente el Reality P
 - **Arfleet** - ArFleet es un protocolo desarrollado para Arweave+AO que agiliza la compra de almacenamiento de datos con tiempo limitado directamente de pares sin permisos, eliminando la necesidad de aplicación por terceros.
 - **Autonomous Finance** - Una entidad especializada dedicada a explorar y avanzar en la infraestructura financiera dentro de la red AO.
 - **Reality Protocol** - Reality Protocol permite mapear entidades dentro de un espacio definido. Cada Reality establece los parámetros dimensionales (ej. 2 o 3), y la posición de cada entidad se captura mediante un vector numérico.
-- 
+
 **Recursos de Arfleet**
 
 - [Presentación Genesis de Arfleet](https://youtu.be/qLgZ56XbIl0?t=1167)
