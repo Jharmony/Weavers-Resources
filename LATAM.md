@@ -19,7 +19,7 @@
 >
 > **Idiomas**: Los videos pueden ser en inglés o español.
 >
-> Una vez que termines tu proyecto, por favor completa nuestro [formulario de envío de proyectos](#) (inserta el enlace aquí).
+> Una vez que termines tu proyecto, por favor completa nuestro [formulario de envío de proyectos](https://y2kodq8uua3.typeform.com/ColombiaSubmit).
 >
 > ## Nuevas Fechas Límite
 >
@@ -29,7 +29,7 @@
 >
 > ## Preguntas
 >
-> Si tienes alguna pregunta sobre el hackathon, la evaluación o las recompensas, por favor contacta al equipo de Weavers a través de nuestro [Discord](#) (inserta el enlace aquí) o envíanos un correo a [ryan@arweave.org](mailto:ryan@arweave.org).
+> Si tienes alguna pregunta sobre el hackathon, la evaluación o las recompensas, por favor contacta al equipo de Weavers a través de nuestro [Discord](https://discord.gg/weavers) o envíanos un correo a [ryan@arweave.org](mailto:ryan@arweave.org).
 >
 > Gracias por tu comprensión y flexibilidad. ¡Esperamos ver tus increíbles proyectos!
 >
