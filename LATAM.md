@@ -10,7 +10,7 @@ Si nunca has implementado en Arweave antes, estamos aquí para ayudarte. Únete 
 
 ## Evento LATAM Weavers: Desatando la Creatividad en la Blockchain de Arweave en Colombia
 
-Bienvenido al evento LATAM Weavers, un dinámico hackathon presencial de 3 días del 5 al 7 de septiembre, diseñado para el ecosistema de Arweave. Con premios en recompensas, este evento inclusivo fomenta la creatividad y la colaboración entre los desarrolladores. Si estás en Bogotá, Colombia, únete a nuestro evento presencial y si tienes preguntas, únete a nuestra comunidad en [Discord](https://discord.gg/gvZTg53zuJ).
+Bienvenido al evento LATAM Weavers, un dinámico hackathon presencial del 5 al 11 de septiembre, diseñado para el ecosistema de Arweave. Con premios en recompensas, este evento inclusivo fomenta la creatividad y la colaboración entre los desarrolladores. Si estás en Colombia, únete a nuestro evento presencial y si tienes preguntas, únete a nuestra comunidad en [Discord](https://discord.gg/weavers).
 
 Recompensas para el hackathon LATAM en Colombia:
 ## Recompensas para el hackathon de LATAM en Colombia ##
@@ -24,24 +24,18 @@ Para que tu envío sea considerado para los premios, tu proyecto debe cumplir co
 - Todos los proyectos enviados para las demás recompensas serán automáticamente ingresados para el premio mayor.
 - Puedes trabajar en equipos de hasta 3 hackers, quienes deben estar registrados en el hackathon.
 - Solo puedes enviar una entrada para esta recompensa de desarrolladores, pero puedes participar en otras recompensas.
-- Todo lo que envíes debe ser trabajo original, creado durante el Evento Hackathon de Weavers (5 de septiembre - 7 de septiembre de 2024). No aceptaremos enlaces a contenido previamente creado, incluso si eres el autor.
+- Todo lo que envíes debe ser trabajo original, creado durante el evento Hackathon de Weavers (5 de septiembre - 11 de septiembre de 2024). No aceptaremos enlaces a contenido previamente creado, incluso si eres el autor.
 - La mayor parte de tu proyecto debe estar alojada en Arweave.
 - Puedes utilizar bibliotecas de código abierto, IA y otros recursos de uso justo para ayudarte en el desarrollo y diseño del mundo.
-- Todos los participantes del evento deben seguir nuestro **Código de Conducta**, y al participar en un evento de Weavers, también aceptas cumplir con nuestros **Términos y Condiciones**.
 
 **Requisitos:**
 
 - Todos los equipos deben proporcionar un enlace a Github o protocol.land para sus proyectos.
-- Todos los equipos deben presentarse para la evaluación en vivo el 7 de septiembre.
-
+- Todos los equipos deben enviar un video de 4 a 5 minutos antes del 11 de septiembre a las 23:59 COT.
+  
 **Proceso de envío:**
 
-Una vez que hayas cumplido con los requisitos (listados anteriormente), envía tu proyecto aquí:
-- ArFleet - ArFleet es un protocolo desarrollado para Arweave+AO que optimiza la compra de almacenamiento de datos limitado por tiempo directamente de pares sin permisos, eliminando la necesidad de terceros para hacer cumplir los términos.
-  - Detalles de la recompensa:
-- Autonomous Finance - una entidad especializada en explorar y mejorar la infraestructura financiera dentro de la red AO.
-   - Detalles de la recompensa:
-- Reality Protocol - Reality Protocol permite el mapeo de entidades dentro de un espacio definido. Cada Reality establece los parámetros dimensionales (por ejemplo, 2 o 3), y la posición de cada entidad se captura mediante un vector numérico.
+Una vez que hayas cumplido con los requisitos (listados anteriormente), envía tu proyecto, con tu video de 4 a 5 minutos, aquí: [https://y2kodq8uua3.typeform.com/ColombiaSubmit](https://y2kodq8uua3.typeform.com/ColombiaSubmit)
 
 # Recompensas #
 
