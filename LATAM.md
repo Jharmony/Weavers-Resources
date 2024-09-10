@@ -27,6 +27,12 @@
 > - **Fecha de Evaluación**: 12 de septiembre
 > - **Anuncio de Ganadores**: 12 de septiembre a las 17:00 COT
 >
+> <div align="center">
+
+### **[Envía tu proyecto aquí](https://y2kodq8uua3.typeform.com/ColombiaSubmit)**
+
+</div>
+
 > ## Preguntas
 >
 > Si tienes alguna pregunta sobre el hackathon, la evaluación o las recompensas, por favor contacta al equipo de Weavers a través de nuestro [Discord](https://discord.gg/weavers) o envíanos un correo a [ryan@arweave.org](mailto:ryan@arweave.org).
@@ -35,7 +41,6 @@
 >
 > ---
 > # Entregas
-> ## Nuevas Fechas Límite
 > [Entregas de proyectos](https://y2kodq8uua3.typeform.com/ColombiaSubmit)
 > - **Fecha Límite de Envío**: 11 de septiembre a las 23:59 COT
 > - **Fecha de Evaluación**: 12 de septiembre
