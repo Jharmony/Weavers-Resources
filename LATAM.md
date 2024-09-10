@@ -27,7 +27,7 @@
 > - **Fecha de Evaluación**: 12 de septiembre
 > - **Anuncio de Ganadores**: 12 de septiembre a las 17:00 COT
 >
-> <div style="text-align: center;">
+> <div style="text-align: center; padding-top: 100px;"style="text-align: center; padding-top: 100px;">
 
 ### **[Envía tu proyecto aquí](https://y2kodq8uua3.typeform.com/ColombiaSubmit)**
 
