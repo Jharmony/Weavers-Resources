@@ -34,7 +34,9 @@
 > Gracias por tu comprensión y flexibilidad. ¡Esperamos ver tus increíbles proyectos!
 >
 > ---
->
+> ## Entregas
+> [Entregas de proyectos
+](https://y2kodq8uua3.typeform.com/ColombiaSubmit)
 > *Equipo de Weavers*
 
 # Implementación en Arweave: Construye en la Web Descentralizada
