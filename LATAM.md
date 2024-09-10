@@ -22,7 +22,7 @@
 > Una vez que termines tu proyecto, por favor completa nuestro [formulario de envío de proyectos](https://y2kodq8uua3.typeform.com/ColombiaSubmit).
 >
 > 
->
+> # Entregas
 > - **Fecha Límite de Envío**: 11 de septiembre a las 23:59 COT
 > - **Fecha de Evaluación**: 12 de septiembre
 > - **Anuncio de Ganadores**: 12 de septiembre a las 17:00 COT
@@ -40,11 +40,6 @@
 > Gracias por tu comprensión y flexibilidad. ¡Esperamos ver tus increíbles proyectos!
 >
 > ---
-> # Entregas
-> [Entregas de proyectos](https://y2kodq8uua3.typeform.com/ColombiaSubmit)
-> - **Fecha Límite de Envío**: 11 de septiembre a las 23:59 COT
-> - **Fecha de Evaluación**: 12 de septiembre
-> - **Anuncio de Ganadores**: 12 de septiembre a las 17:00 COT
 >
 > *Equipo de Weavers*
 
