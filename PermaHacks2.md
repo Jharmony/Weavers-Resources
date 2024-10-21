@@ -3,8 +3,10 @@
 [![Join our Weavers Discord](https://arweave.net/osw8PJbK1J6clwOj41SHasp_IIdigSPYEuBc9AgSgRM)](https://discord.gg/gvZTg53zuJ)
 
 > # 📢 2nd Annual PermaHacks Hackathon #
+> ### Unleashing Creativity on the Arweave Blockchain ###
 >
-> TODO
+> Welcome to Weavers PermaHacks, a virtual hackathon running from October 23rd to November 6th, designed for builders in the Arweave ecosystem. This is your opportunity to learn, create, and collaborate with top minds, with a chance to claim your share of $22,500 in bounties! Whether you’re into services, games, or infrastructure, we’ve partnered with top teams like AO, WeaveVM, Astro Labs, Ario, BazAR, BetterIDEa, and 0rbit to make this event one to remember. Join us in our Discord for support, and visit our website for more details on bounties, partners, and how to get involved! 
+> If you have questions join us in our [Discord](https://discord.gg/gvZTg53zuJ) community.
 >
 > ## What You Need to Know:
 >
@@ -13,7 +15,7 @@
 >
 > ## Judging and Submissions
 >
-> To accommodate this change, we will conduct **asynchronous judging**. Each hacker team is required to submit a **4-5 minute video demonstration** of their project. The video should cover:
+> Each hacker team is required to submit a **4-5 minute video demonstration** of their project. The video should cover:
 >
 > - The features of your project
 > - Your reasons for building it
@@ -21,16 +23,12 @@
 >
 > **Languages**: Video must be in English.
 >
-> Once your project is complete, please fill out our [project submission form](#).
+> Once your project is complete, please fill out our [project submission form](#). <-- Will be live towards the end of the hackathon. 
 
 > ## Deadlines
 >
 > - **Submission Deadline**: November 5th at 23:59 ET
-> - **Judging Date**: November 6th
 > - **Winners Announcement**: November 6th
-
-> ## PermaHacks: Unleashing Creativity on the Arweave Blockchain ##
-> Welcome to the Weavers PermaHacks event, a dynamic virtual hackathon from October 23rd to November 6th, tailored for  the Arweave ecosystem. With bounty prizes, this inclusive event  encourages creativity and collaboration among developers. If  you're a in Colombia join our in person event and if you have  questions join us in our [Discord](https://discord.gg/gvZTg53zuJ) community. 
 
 > ## Bounties for PermaHacks 2024 ##
 > **Bounty Requirements & Rules:**
@@ -50,30 +48,28 @@
 > **Requirements:**
 > 
 > - All teams must supply a Github or protocol.land link for their projects.
-> - All teams must present themselves for live judging on November 6th at TODO ET or submit their video.
+> - All teams must submit their video by November 5th at 11:59PM ET.
 > 
 > **Submission Process:**
 > 
 > Once you have met the requirements (listed above), submit your > project here: [Submit](#)
 
-> ## Bounties ##
-
-> ### **Grand Prize: TODO USD (overall best project)** ###
-> 
-> Best overall project, considering the originality of the idea, the implementation of Arweave/AO in the project, the quality of the features (fewer working features more non functional features), and the usefulness of the product.
+> ## PermaHacks 2024 Partner's Bounties ##
  
 > ## [WeaveVM](https://www.wvm.dev/) Bounties - Total Prize Pool of $6000 USD ##
 > 
 > **What is WeaveVM?**
 > 
-> WeaveVM is a hyperscalable, evm-compatible network built on the world's only permanent storage layer: Arweave.
+> [WeaveVM](https://www.wvm.dev/) is the first EVM-compatible chain to unlock Arweave’s potential for extremely low-cost onchain storage. Smart contracts on WeaveVM inherit the ability to [read and write to Arweave natively](https://blog.wvm.dev/weavevm-arweave-precompiles/), meaning Arweave can be used as a cheap and infinitely scalable data store for EVM dApps.
 > 
+>This unlocks content-heavy and data-intensive apps on the EVM with the permanent storage guarantees of Arweave.
+>
 > ### Bounty #1 On-Chain TikTok $3000 ###
 >**Bounty Description:**
 >
 > Build a short video sharing dApp that uses WeaveVM’s Arweave precompile to read and write from permanent storage at the smart contract level. Integrate social features such as likes and comments. Bonus points for building a market and economy around tokenized video, and enabling token-gated content access.
 > 
-> ### Bounty #2 Arweave-first ERC721 factory $2000 ###
+> ### Bounty #2 Arweave-first ERC721 factory $1000 ###
 > **Bounty Description:**
 >
 >Build a contract and minting UI for ERC721 NFTs that incorporates WeaveVM’s Arweave precompiles at the contract level. Instead of uploading assets and metadata separately and cross-referencing them with the contract, a WeaveVM ERC721 could bake the whole process into one onchain transaction. Integrate the contract with a simple UI to enable non-technical users to mint NFTs and set traits.
@@ -87,8 +83,10 @@
 > - [WeaveVM Docs](https://docs.wvm.dev/)
 > - [WeaveVM Blog](https://blog.wvm.dev/)
 > - [WeaveVM Read and Write to Arweave from Solidity](https://blog.wvm.dev/weavevm-arweave-precompiles/)
+> - [WeaveVM Precompiles](https://docs.wvm.dev/using-weavevm/weavevm-precompiles)
 > - [EXEX.rs open-source directory of Reth](https://blog.wvm.dev/exex-rs-announcement/)
 >
+>[More..](https://www.weaversofficial.com/partners/weavevm)
 
 > ## [0rbit](https://www.0rbit.co/) Bounties - Total Prize Pool of **30,000 0rbit Points** ##
 > 
@@ -114,6 +112,8 @@
 > - [0rbit Landing](https://www.0rbit.co/)
 > - [0rbit Docs](https://docs.0rbit.co/)
 > - [0rbit Playground](https://www.playground.0rbit.co/)
+>
+>[More..](#)
 
 
 > ## [BazAR](https://bazar.arweave.net) Bounties - Total Prize Pool of $3000 USD ##
@@ -132,7 +132,7 @@
 >
 > TODO
 > 
-> ### DBounty #3 TODO ###
+> ### Bounty #3 TODO ###
 > **Bounty Description:**
 > 
 > TODO
@@ -148,6 +148,8 @@
 > - [Helix](https://github.com/permaweb/helix)
 > - [UCM](https://github.com/permaweb/ao-ucm)
 > - [Perma-Deploy](https://github.com/permaweb/permaweb-deploy)
+>
+>[More..](#)
 
 > ## [BetterIDEa](https://betteridea.dev/) Bounties - Total Prize Pool of $1500 USD ##
 > 
@@ -155,21 +157,15 @@
 > 
 > BetterIDEa is a suite of developer tools that enhances your developer experience on the Arweave and AO.
 > 
-> ### Bounty #1 TODO ###
+> ### Add AI autocomplete to Web IDE $1500 ###
 >**Bounty Description:**
 >
-> TODO
+> The primary goal of this bounty is to implement AI code suggestions using Large Language Models (LLMs) directly in the IDEs editor. This would leverage the power of LLMs to provide context-aware code completions, improving developer productivity and code quality for lua processes.
 > 
-> ### Bounty #2 TODO ###
-> **Bounty Description:**
+> ### * X thread highlighting potential use cases for BetterIDEa ###
 >
-> TODO
+> Write an X thread demoing & highlighting the best use cases of BetterIDEa and tag @Betteridea_Dev & @Weavers_Org. Submissions should be easy to read and follow, make good use of videos and graphics, and consider how best to showcase a particular feature.
 > 
-> ### DBounty #3 TODO ###
-> **Bounty Description:**
-> 
-> TODO
->
 >### Resources ###
 > - [BetterIDEa Landing](https://betteridea.dev/)
 > - [VetterIDEa Docs](https://docs.betteridea.dev/)
@@ -179,6 +175,8 @@
 >
 > ### Repos ###
 > - [BetterIDEa GitHub](https://github.com/betteridea-dev)
+>
+>[More..](https://www.weaversofficial.com/partners/betteridea)
 
 > ## [ARIO](https://ar.io/) Bounties - Total Prize Pool of $2000 USD ##
 > 
@@ -186,26 +184,23 @@
 > 
 > Unleash the power of the permanent web. No 404s, no lost dependencies, no subscriptions - just reliable access to applications and data.
 > 
-> ### Bounty #1 TODO ###
+> ### Build a Decentralized Linktree using ArNS & Turbo ###
 >**Bounty Description:**
 >
-> TODO
+> Build a decentralized Linktree using ArNS & Turbo. Users should be able to either complete a simple form or connect a wallet associated with their ENS profile, from which you can resolve their profile data. This data is then used to populate a simple template for a link page, which they can deploy to arweave using Turbo.
 > 
-> ### Bounty #2 TODO ###
-> **Bounty Description:**
+> ### * PermaHacks ar.io Rewards ###
+> **1 ArNS Name + Turbo Tokens/Winning Team**
 >
-> TODO
-> 
-> ### DBounty #3 TODO ###
-> **Bounty Description:**
-> 
-> TODO
+> The ario team have generously offered to reward all teams who win ANY bounty during PermaHacks 2024 with a ArNS name (worth ~2500 tIO) & 2 6 month turbo tokens! Winners will have their prizes sent after the closing of the event on November 6th, 2024.
 >
 >### Resources ###
 > - [ARIO Landing](https://ar.io/)
 > - [Gateway Architechture](https://docs.ar.io/gateways/)
 > ### Repos ###
 > - [ArIO SDK](https://github.com/ar-io/ar-io-sdk)
+>
+>[More..](https://www.weaversofficial.com/partners/ario)
 
 
 > ## [ASTRO](https://www.astrousd.com/) Bounties - Total Prize Pool of $3000 USD ##
@@ -214,26 +209,18 @@
 > 
 > Astro is the force behind USDA, a stablecoin anchored to the US dollar, USDA provides stability amidst crypto volatility, empowering users to navigate the ecosystem with confidence.
 > 
-> ### Bounty #1 TODO ###
+> ### Build a qAR-based payment Dapp ###
 >**Bounty Description:**
 >
-> TODO
+> Create a dApp that allows qAR to be used as payment. E.g. a way to send qAR using QR codes. The interface should be intuitive enough for crypto novices, you should work to minimize steps required for common actions, and you should incorporate elements that help users understand qAR and its benefits.
 > 
-> ### Bounty #2 TODO ###
-> **Bounty Description:**
->
-> TODO
-> 
-> ### DBounty #3 TODO ###
-> **Bounty Description:**
-> 
-> TODO
->
 >### Resources ###
 > - [ASTRO Landing](https://www.astrousd.com/)
 > - [ASTRO Docs](https://docs.astrousd.com/)
 > - [ASTRO Blog](https://www.astrousd.com/blog)
 > - [The ASTRO Protocol](https://docs.astrousd.com/astro-protocol/litepaper/the-astro-protocol)
+>
+> [More..](https://www.weaversofficial.com/partners/astro)
 
 > ## [AO](https://ao.arweave.net/) Bounties - Total Prize Pool of $4000 USD ##
 > 
@@ -241,20 +228,15 @@
 > 
 > AO is a decentralized computing environment built on the Arweave network that allows for parallel processing of applications
 > 
-> ### Bounty #1 TODO ###
+> ### Best Dapp Built using AO ###
+>  - **$3000 for 1st place**
+>  - **$1000 for 2st place**
 >**Bounty Description:**
 >
-> TODO
-> 
-> ### Bounty #2 TODO ###
-> **Bounty Description:**
+> AO continues to be the biggest innovation the Arweave Ecosystem has seen since it's inception. It's tools and resources are constantly evolving and growing just like the rest of Arweave.
 >
-> TODO
-> 
-> ### DBounty #3 TODO ###
-> **Bounty Description:**
-> 
-> TODO
+>This Bounty is purposefully open ended, the AO team wants to see the creativity of PermaHacks hackers in developing their best and brightest ideas built on AO. The only limitations are that projects must be built entirely on Arweave and AO, and should try to make use of AO's strengths to do things only possible on AO.
+>
 >
 >### Resources ###
 >
@@ -267,6 +249,45 @@
 > ### Repos ###
 > - [ao Official Repo](https://github.com/permaweb/ao)
 > - [ao Atomic Asset Implementation](https://github.com/permaweb/ao-atomic-asset)
+>
+>[More..](https://www.weaversofficial.com/partners/ao)
+
+>
+> ### **Finalist Prizing (Best Overall Projects) Total Prize Pool of $3000** ###
+> 
+> This is it folks! Finalist Prizing is an opportunity for those who have excelled in their respective Partner Bounties, as well as those who chose to work on their own non-bounty ideas to be rewarded for their effort.
+>
+>For those that have also been selected to win a partner bounty, consider this the cherry on top, and for those who haven't, consider this an acknowledgement of excellence.
+>
+>**Requirements:**
+>
+>All Developer projects submitted for a PermaHacks Bounty are automatically entered for Finalist Prizing.
+>
+>Projects for this bounty need simply to utilize Arweave in a meaningful way and stand out from the competition.
+>
+>Only submissions for our Developer Bounties are eligible for finalist prizing, this excludes our BazAR bounties & BetterIDEa's threads Bounty.
+>
+>**Prizing:**
+>
+>Finalist prizing is simple, three equal prizes of **$1000 EACH** will be awarded to the **3 best overall projects submitted** during PermaHacks 2024. These prizes will be determined by a mixed panel of judges containing representatives from our Partner teams and Weavers.
+>
+
+>
+> ### **DEVCON TICKET RAFFLE** ###
+> 
+> Weavers is giving away a ticket to DevCon Bangkok 2024! 
+>
+>All hackers must apply & submit an eligible project to any PermaHacks partner or finalist bounty to enter
+>
+>**Disclaimers & Rules**
+>
+>Hackers must opt-in to the raffle during our project submission form*
+>
+>*Hackers should only opt in if they are eligible to attend DevCon in Thailand. Meaning they meet the requirements for a vistors visa to the country, and have the financial means to attend.
+>
+>*If a winner is selected who is unable to attend, they may notify Weavers who will re-run the raffle draw and select another winner.
+>
+>*Resale of the ticket is strictly forbidden and can result in barring from future Weavers events.
 
 >Visit our [Weavers website](https://www.weaversofficial.com/) for more bounty details.
 
