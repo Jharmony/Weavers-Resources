@@ -271,6 +271,7 @@
 >
 >Finalist prizing is simple, three equal prizes of **$1000 EACH** will be awarded to the **3 best overall projects submitted** during PermaHacks 2024. These prizes will be determined by a mixed panel of judges containing representatives from our Partner teams and Weavers.
 >
+>[More..](https://www.weaversofficial.com/partners/finalists)
 
 >
 > ### **DEVCON TICKET RAFFLE** ###
