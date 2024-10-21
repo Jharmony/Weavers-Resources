@@ -151,7 +151,7 @@
 >
 >[More..](#)
 
-> ## [BetterIDEa](https://betteridea.dev/) Bounties - Total Prize Pool of $1500 USD ##
+> ## [BetterIDEa](https://betteridea.dev/) Bounties - Total Prize Pool of $1500 USD + 20 $AR ##
 > 
 > **What is BetterIDEa?**
 > 
@@ -162,7 +162,7 @@
 >
 > The primary goal of this bounty is to implement AI code suggestions using Large Language Models (LLMs) directly in the IDEs editor. This would leverage the power of LLMs to provide context-aware code completions, improving developer productivity and code quality for lua processes.
 > 
-> ### * X thread highlighting potential use cases for BetterIDEa ###
+> ### * X thread highlighting potential use cases for BetterIDEa | 20 $AR ###
 >
 > Write an X thread demoing & highlighting the best use cases of BetterIDEa and tag @Betteridea_Dev & @Weavers_Org. Submissions should be easy to read and follow, make good use of videos and graphics, and consider how best to showcase a particular feature.
 > 
