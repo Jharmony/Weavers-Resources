@@ -27,7 +27,7 @@
 
 > ## Deadlines
 >
-> - **Submission Deadline**: November 5th at 23:59 ET
+> - **Submission Deadline**: November 5th at 11:59 ET
 > - **Winners Announcement**: November 6th
 
 > ## Bounties for PermaHacks 2024 ##
@@ -37,9 +37,9 @@
 > 
 > **Rules:**
 > 
-> - All projects submitted for the other bounties are  automatically entered for the grand prize bounty.
+> - All projects submitted for the other bounties are  automatically entered for the "Finalist Prizing" grand prize bounty.
 > - You may work in teams of up to 3 Hackers, who must all be  registered for the hackathon.
-> - You may only submit one entry for this Developer Bounty, but > you may submit entries for other bounties as well.
+> - You may only submit one entry for this Developer Bounty, but you may submit entries for other bounties as well.
 > - Everything you submit must be your original work, created  during the Weavers Hackathon Event (October 23rd - Novermber  6th 2024). We will not accept links to previously created content, even if you are the author of the work.
 > - The majority of your project must be hosted on Arweave.
 > - You may use open-source libraries, AI, and other fair use assets to assist in development and world design.
@@ -52,7 +52,7 @@
 > 
 > **Submission Process:**
 > 
-> Once you have met the requirements (listed above), submit your > project here: [Submit](#)
+> Once you have met the requirements (listed above), submit your project here: [Submit](#)
 
 > ## PermaHacks 2024 Partner's Bounties ##
  
@@ -64,17 +64,17 @@
 > 
 >This unlocks content-heavy and data-intensive apps on the EVM with the permanent storage guarantees of Arweave.
 >
-> ### Bounty #1 On-Chain TikTok $3000 ###
+> ### Bounty #1 On-Chain TikTok $3000 USD ###
 >**Bounty Description:**
 >
 > Build a short video sharing dApp that uses WeaveVM’s Arweave precompile to read and write from permanent storage at the smart contract level. Integrate social features such as likes and comments. Bonus points for building a market and economy around tokenized video, and enabling token-gated content access.
 > 
-> ### Bounty #2 Arweave-first ERC721 factory $1000 ###
+> ### Bounty #2 Arweave-first ERC721 factory $1000 USD ###
 > **Bounty Description:**
 >
 >Build a contract and minting UI for ERC721 NFTs that incorporates WeaveVM’s Arweave precompiles at the contract level. Instead of uploading assets and metadata separately and cross-referencing them with the contract, a WeaveVM ERC721 could bake the whole process into one onchain transaction. Integrate the contract with a simple UI to enable non-technical users to mint NFTs and set traits.
 > 
-> ### Bounty #3 Data Stream Archiver $1000
+> ### Bounty #3 Data Stream Archiver $1000 USD
 > **Bounty Description:**
 > 
 >Build a way to push web2/web3 data streams to WeaveVM so that they can be queried from inside smart contracts using the Arweave precompile. The archiver can be purpose built for anything from realtime social data to IoT device readings. The proof of concept must show how archived data can be retrieved from inside WeaveVM smart contracts.
@@ -88,70 +88,75 @@
 >
 >[More..](https://www.weaversofficial.com/partners/weavevm)
 
-> ## [0rbit](https://www.0rbit.co/) Bounties - Total Prize Pool of **30,000 0rbit Points** ##
+> ## [0rbit](https://www.0rbit.co/) Bounties - Total Prize Pool of **30,000 0RBT Points** ##
 > 
 > **What is 0rbit?**
 > 
 > 0rbit, the first Decentralized Oracle Network on Arweave
 > 
-> ### Bounty #1 TODO ###
+> ### Create Time Weighted Average Price Feed $10,000 $0RBT Points ###
 >**Bounty Description:**
 >
-> TODO
+> In order to complete this Bounty, you'll need to create a price feed oracle using 0rbit as an oracle infrastructure, which will provide users a time weighted average price (or any better pricing averaging method) feed.
 > 
-> ### Bounty #2 TODO ###
+> ### Create an Atomic Asset pegged with Real World Asset with reserve verification. $10,000 $0RBT Points  ###
 > **Bounty Description:**
 >
-> TODO
+> In order to complete this Bounty, you'll need to create a web Dapp which will enable users to list their Real World Assets (like cars, real estate, etc.) and verify their assets off-chain using 0rbit.
 > 
-> ### DBounty #3 TODO ###
+> ### Best Use of 0rbit $10,000 $0RBT Points (pooled) ###
 > **Bounty Description:**
 > 
-> TODO
+> For this pooled prize Bounty, Hackers are open to create any project that's utilizes 0rbit in a meaningful way. The judges want to see thoughtful and innovative uses of 0rbit's technology, use this Bounty to get creative!
+>
 >### Resources ###
 > - [0rbit Landing](https://www.0rbit.co/)
 > - [0rbit Docs](https://docs.0rbit.co/)
 > - [0rbit Playground](https://www.playground.0rbit.co/)
+> - [Hacker Hangout Ep 3 w/ Lucipher0x17 - 0rbit](https://www.youtube.com/watch?v=SNk3sAxPPi8&t=3325s)
 >
->[More..](#)
+>[More..](https://www.weaversofficial.com/partners/0rbit)
 
 
-> ## [BazAR](https://bazar.arweave.net) Bounties - Total Prize Pool of $3000 USD ##
+> ## [BazAR](https://bazar.arweave.net) Bounties - Total Prize Pool of $3000 USD (1st: $1500 | 2nd: $1000 | 3rd: $500) ##
 > 
 > **What is BazAR?**
 > 
 > BazAR is a platform to share and trade atomic assets on Arweave which runs on the Universal Content Marketplace protocol.
 > 
-> ### Bounty #1 TODO ###
+> ### Create an Atomic Asset Collection with a Custom Lore/World $3000 USD ###
 >**Bounty Description:**
 >
-> TODO
-> 
-> ### Bounty #2 TODO ###
-> **Bounty Description:**
+> Create an atomic asset (NFT) collection that tells a story. These collections are more than just a PFP, but a collection that builds a lore. These characters or assets can be apart of a larger story or interactive experience/game. Judging will be based on the quality of the NFT art as well as the creative direction for the collection story, and the additional assets you submit to build out your collection.
 >
-> TODO
-> 
-> ### Bounty #3 TODO ###
-> **Bounty Description:**
-> 
-> TODO
+>As this is THE Creative Bounty, the sky is the limit with how you choose to approach this Bounty. Remember, an Atomic Asset can be ANYTHING, in previous events we've had Hackers build out interactive comics, sprites & tilesets, and detailed profile-art. We want to see how you approach this challenge and how you make your collection your own.
+>
+>***Prizing:**
+>
+>The top 10 submissions for this Bounty will be selected by judges from the BazAR team, then, 3 finalists will be chosen by community vote! (details TBA). The top 10 submissions will be revealed at 9:30am ET on November 6th, community voting will be open until 2:30pm ET the same day, and the winners will be announced in our closing Ceremony at 3pm ET.
 >
 >### Resources ###
+> - [BazAR Docs](https://bazar.arweave.net/#/docs/overview/introduction)
+> - [PIXL Guide](https://discord.com/channels/1123679866072617021/1288786086444793917)
 > - [BazAR Marketplace](https://bazar.arweave.net/)
 > - [Helix Uploader](https://helix.arweave.net/)
 > - [Create an Atomic Asset Collection with Helix | Full Tutorial](https://www.youtube.com/watch?v=bhLlFepA7LU)
-> - [PIXL Guide](https://discord.com/channels/1123679866072617021/1288786086444793917)
-> - [BazAR Docs](https://bazar.arweave.net/#/docs/overview/introduction)
+>
+> **Art Tools**
+> - [Art Creator Studio (no-code generatative art tool)](https://studio.deveffort.io/studio)
+> - [How to use Art Creator Studio by Hashlips](https://youtu.be/zLWg1glSy5Y?si=aveX9UDjdt8AlfPT)
+> - [Hashlips Art Engine](https://github.com/HashLips/hashlips_art_engine)
+> - [Hashlips Art Engine 2.0](https://lab.hashlips.io/docs/art-engine)
+> 
 > ### Repos ###
 > - [Bazar](https://github.com/permaweb/bazar)
 > - [Helix](https://github.com/permaweb/helix)
 > - [UCM](https://github.com/permaweb/ao-ucm)
 > - [Perma-Deploy](https://github.com/permaweb/permaweb-deploy)
 >
->[More..](#)
+>[More..](https://www.weaversofficial.com/partners/bazar)
 
-> ## [BetterIDEa](https://betteridea.dev/) Bounties - Total Prize Pool of $1500 USD + 20 $AR ##
+> ## [BetterIDEa](https://betteridea.dev/) Bounties - Total Prize Pool of $1500 USD + 20 $AR Prize Pool (1st: 5 $AR | 2nd: 2.5 $AR | 3rd: 1 $AR) ##
 > 
 > **What is BetterIDEa?**
 > 
@@ -166,12 +171,17 @@
 >
 > Write an X thread demoing & highlighting the best use cases of BetterIDEa and tag @Betteridea_Dev & @Weavers_Org. Submissions should be easy to read and follow, make good use of videos and graphics, and consider how best to showcase a particular feature.
 > 
+>***Prizing**
+>This bounty will be selected by judges from the BetterIDEa team, who will award 20 AR total, divided as shown below.
+>
+> 
 >### Resources ###
 > - [BetterIDEa Landing](https://betteridea.dev/)
-> - [VetterIDEa Docs](https://docs.betteridea.dev/)
+> - [BetterIDEa Docs](https://docs.betteridea.dev/)
 > - [BetterIDEa Web IDE](https://ide.betteridea.dev/)
 > - [PIXL Guide](https://discord.com/channels/1123679866072617021/1288786086444793917)
 > - [BazAR Docs](https://bazar.arweave.net/#/docs/overview/introduction)
+> - [Install packages on ao processes using APM](https://mirror.xyz/0xCf673b87aFBed6091617331cC895376209d3b923/M4XoQFFCAKBH54bwIsCFT3Frxd575-plCg2o4H1Tujs)
 >
 > ### Repos ###
 > - [BetterIDEa GitHub](https://github.com/betteridea-dev)
@@ -184,7 +194,7 @@
 > 
 > Unleash the power of the permanent web. No 404s, no lost dependencies, no subscriptions - just reliable access to applications and data.
 > 
-> ### Build a Decentralized Linktree using ArNS & Turbo ###
+> ### Build a Decentralized Linktree using ArNS & Turbo $2000 ###
 >**Bounty Description:**
 >
 > Build a decentralized Linktree using ArNS & Turbo. Users should be able to either complete a simple form or connect a wallet associated with their ENS profile, from which you can resolve their profile data. This data is then used to populate a simple template for a link page, which they can deploy to arweave using Turbo.
@@ -197,8 +207,15 @@
 >### Resources ###
 > - [ARIO Landing](https://ar.io/)
 > - [Gateway Architechture](https://docs.ar.io/gateways/)
+> - [ArDrive Core](https://docs.ardrive.io/docs/core-sdk.html#overview)
+> - [Turbo SDK](https://docs.ardrive.io/docs/turbo/turbo-sdk/)
+> - [Turbo Topup](https://turbo-topup.com/)
+> - [Gateway Network Portal](https://omphalos.arweave.net/)
+>
 > ### Repos ###
 > - [ArIO SDK](https://github.com/ar-io/ar-io-sdk)
+> - [ArNS-React](https://github.com/ar-io/arns-react)
+
 >
 >[More..](https://www.weaversofficial.com/partners/ario)
 
@@ -213,12 +230,15 @@
 >**Bounty Description:**
 >
 > Create a dApp that allows qAR to be used as payment. E.g. a way to send qAR using QR codes. The interface should be intuitive enough for crypto novices, you should work to minimize steps required for common actions, and you should incorporate elements that help users understand qAR and its benefits.
+>
+> *Q Arweave (qAR) Process ID: NG-0lVX882MG5nhARrSzyprEK6ejonHpdUmaaMPsHE8
 > 
 >### Resources ###
 > - [ASTRO Landing](https://www.astrousd.com/)
 > - [ASTRO Docs](https://docs.astrousd.com/)
 > - [ASTRO Blog](https://www.astrousd.com/blog)
 > - [The ASTRO Protocol](https://docs.astrousd.com/astro-protocol/litepaper/the-astro-protocol)
+> - [qAR on AOLINK](https://www.ao.link/#/token/NG-0lVX882MG5nhARrSzyprEK6ejonHpdUmaaMPsHE8)
 >
 > [More..](https://www.weaversofficial.com/partners/astro)
 
@@ -245,10 +265,17 @@
 > - [ao Tutorials](https://cookbook_ao.g8way.io/tutorials/begin/index.html)
 > - [Get Started in 5 Min](https://cookbook_ao.g8way.io/welcome/getting-started.html)
 > - [ao Cookbook](https://ao.g8way.io/)
+> - [AO Processes Web Management](https://sh_ao.arweave.dev/)
+> - [AO Dev-Cli 0.1](https://hackmd.io/@ao-docs/H16LENGcA)
+> - [ao-token AO library](https://github.com/labscommunity/ao-tokens)
+> - [AOS-Sqlite Workshop](https://hackmd.io/@ao-docs/rkM1C9m40)
+
 >
 > ### Repos ###
 > - [ao Official Repo](https://github.com/permaweb/ao)
 > - [ao Atomic Asset Implementation](https://github.com/permaweb/ao-atomic-asset)
+> - [AO Collections](https://github.com/permaweb/ao-permaweb/tree/main/services/collections)
+> - [AOS Repo](https://github.com/permaweb/aos)
 >
 >[More..](https://www.weaversofficial.com/partners/ao)
 
@@ -520,6 +547,7 @@ await message({
 
 
 ## Starter Kit and Getting Started ##
+[Create-ao-dapp | Fullstack PermaDapp tool ](https://create-ao-dapp.g8way.io/)
 
 [React Starter Kits](https://cookbook.arweave.dev/kits/react/index.html)
 
@@ -722,6 +750,12 @@ await message({
 [Lorimer Jenkins AOV Workshop Repo](https://github.com/lorimerjenkins/aov-workshop)
 
 [ao Tokens](https://github.com/labscommunity/ao-tokens) - This library makes it easy to interact with tokens and operate with token quantities.
+
+[AFTR Wallet | on-chain multi-sig for AO](https://docs.aftr.pro/guides/aftr-wallet/)
+
+[AO Lua Process Template](https://github.com/project-kardeshev/ao-lua-process-template)
+
+[Gitpod](https://gitpod.io/workspaces)
 
 [Gamma Presentation](https://gamma.app/docs/Deploying-on-Arweave-Build-on-the-Decentralized-Web-xj30isp8bok5dep)
 
