@@ -38,7 +38,7 @@
 > **Rules:**
 > 
 > - All projects submitted for the other bounties are  automatically entered for the "Finalist Prizing" grand prize bounty.
-> - You may work in teams of up to 3 Hackers, who must all be  registered for the hackathon.
+> - You may work in teams of up to 5 Hackers, who must all be  registered for the hackathon.
 > - You may only submit one entry for this Developer Bounty, but you may submit entries for other bounties as well.
 > - Everything you submit must be your original work, created  during the Weavers Hackathon Event (October 23rd - Novermber  6th 2024). We will not accept links to previously created content, even if you are the author of the work.
 > - The majority of your project must be hosted on Arweave.
