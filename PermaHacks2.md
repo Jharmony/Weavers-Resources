@@ -23,11 +23,11 @@
 >
 > **Languages**: Video must be in English.
 >
-> Once your project is complete, please fill out our [project submission form](#). <-- Will be live towards the end of the hackathon. 
+> Once your project is complete, please fill out our [project submission form](https://y2kodq8uua3.typeform.com/PermaSubmit2024). <-- Will be live towards the end of the hackathon. 
 
 > ## Deadlines
 >
-> - **Submission Deadline**: November 5th at 11:59 ET
+> - **Submission Deadline**: November 6th at 9 AM ET
 > - **Winners Announcement**: November 6th
 
 > ## Bounties for PermaHacks 2024 ##
@@ -48,7 +48,7 @@
 > **Requirements:**
 > 
 > - All teams must supply a Github or protocol.land link for their projects.
-> - All teams must submit their video by November 5th at 11:59PM ET.
+> - All teams must submit their video by November 6th at 9 AM ET.
 > 
 > **Submission Process:**
 > 
@@ -269,7 +269,6 @@
 > - [AO Dev-Cli 0.1](https://hackmd.io/@ao-docs/H16LENGcA)
 > - [ao-token AO library](https://github.com/labscommunity/ao-tokens)
 > - [AOS-Sqlite Workshop](https://hackmd.io/@ao-docs/rkM1C9m40)
-
 >
 > ### Repos ###
 > - [ao Official Repo](https://github.com/permaweb/ao)
